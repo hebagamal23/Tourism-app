@@ -1,0 +1,632 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\tourism_project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\tourism_project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\interface\\ifavoriteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\interface\\ifavoriteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Migrations\\20250501080302_InitialCleaned.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tourism_project\\Migrations\\20250501080302_InitialCleaned.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\controllers\\home\\favouritecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\controllers\\home\\favouritecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\services\\favoriteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\services\\favoriteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\controllers\\home\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\controllers\\home\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\models\\activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\models\\activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\models\\paymentmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\models\\paymentmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\models\\restrictiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\models\\restrictiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\models\\hotelrestriction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\models\\hotelrestriction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\models\\hotelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\models\\hotelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\models\\tourism.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\models\\tourism.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\models\\tourismtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\models\\tourismtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\dtos\\home\\addfavoritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\dtos\\home\\addfavoritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\models\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\models\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\controllers\\home\\activityscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\controllers\\home\\activityscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\controllers\\home\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\controllers\\home\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\controllers\\home\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\controllers\\home\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\dtos\\home\\activitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\dtos\\home\\activitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\controllers\\updateprofile\\updateprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\controllers\\updateprofile\\updateprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\controllers\\home\\tripscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\controllers\\home\\tripscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\controllers\\home\\transportationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\controllers\\home\\transportationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\controllers\\home\\tourismtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\controllers\\home\\tourismtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\controllers\\home\\serviciescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\controllers\\home\\serviciescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\controllers\\home\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\controllers\\home\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\controllers\\home\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\controllers\\home\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\dtos\\home\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\dtos\\home\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\dtos\\home\\servicesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\dtos\\home\\servicesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\dtos\\home\\roomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\dtos\\home\\roomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\services\\roomavailabilityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\services\\roomavailabilityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|c:\\users\\el-wattaneya\\source\\repos\\tourism_project\\tourism_project\\services\\bookingstatusupdateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E03E8C6-2D60-42AB-A412-27218735D728}|Tourism_project\\Tourism_project.csproj|solutionrelative:tourism_project\\services\\bookingstatusupdateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20250501080302_InitialCleaned.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Migrations\\20250501080302_InitialCleaned.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Migrations\\20250501080302_InitialCleaned.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Migrations\\20250501080302_InitialCleaned.cs",
+              "RelativeToolTip": "Tourism_project\\Migrations\\20250501080302_InitialCleaned.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T08:03:03.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IFavoriteService.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Interface\\IFavoriteService.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Interface\\IFavoriteService.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Interface\\IFavoriteService.cs",
+              "RelativeToolTip": "Tourism_project\\Interface\\IFavoriteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T17:42:15.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Tourism_project\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAPsAAAAAAAAAAAAgwDoBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T14:17:55.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FavouriteController.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Controllers\\Home\\FavouriteController.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Controllers\\Home\\FavouriteController.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Controllers\\Home\\FavouriteController.cs",
+              "RelativeToolTip": "Tourism_project\\Controllers\\Home\\FavouriteController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAKcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T20:15:19.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Models\\Room.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Models\\Room.cs",
+              "RelativeToolTip": "Tourism_project\\Models\\Room.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAywB4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T21:57:29.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tourism_project.csproj",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Tourism_project.csproj",
+              "RelativeDocumentMoniker": "Tourism_project\\Tourism_project.csproj",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Tourism_project.csproj",
+              "RelativeToolTip": "Tourism_project\\Tourism_project.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-19T20:15:13.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookingsController.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Controllers\\Home\\BookingsController.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Controllers\\Home\\BookingsController.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Controllers\\Home\\BookingsController.cs",
+              "RelativeToolTip": "Tourism_project\\Controllers\\Home\\BookingsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T10:51:54.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FavoriteService.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Services\\FavoriteService.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Services\\FavoriteService.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Services\\FavoriteService.cs",
+              "RelativeToolTip": "Tourism_project\\Services\\FavoriteService.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAAI8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T17:43:15.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PaymentMethod.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Models\\PaymentMethod.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Models\\PaymentMethod.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Models\\PaymentMethod.cs",
+              "RelativeToolTip": "Tourism_project\\Models\\PaymentMethod.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T10:23:00.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Models\\Payment.cs",
+              "RelativeToolTip": "Tourism_project\\Models\\Payment.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T10:22:56.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ACtivity.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Models\\ACtivity.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Models\\ACtivity.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Models\\ACtivity.cs",
+              "RelativeToolTip": "Tourism_project\\Models\\ACtivity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:23:03.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HotelRestriction.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Models\\HotelRestriction.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Models\\HotelRestriction.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Models\\HotelRestriction.cs",
+              "RelativeToolTip": "Tourism_project\\Models\\HotelRestriction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T16:46:25.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Models\\Booking.cs",
+              "RelativeToolTip": "Tourism_project\\Models\\Booking.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T08:32:24.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RestrictionType.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Models\\RestrictionType.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Models\\RestrictionType.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Models\\RestrictionType.cs",
+              "RelativeToolTip": "Tourism_project\\Models\\RestrictionType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T16:45:36.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HotelService.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Models\\HotelService.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Models\\HotelService.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Models\\HotelService.cs",
+              "RelativeToolTip": "Tourism_project\\Models\\HotelService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T15:24:30.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Hotel.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Models\\Hotel.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Models\\Hotel.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Models\\Hotel.cs",
+              "RelativeToolTip": "Tourism_project\\Models\\Hotel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T15:26:18.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TourismType.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Models\\TourismType.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Models\\TourismType.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Models\\TourismType.cs",
+              "RelativeToolTip": "Tourism_project\\Models\\TourismType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T08:54:31.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Location.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Models\\Location.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Models\\Location.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Models\\Location.cs",
+              "RelativeToolTip": "Tourism_project\\Models\\Location.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA4wBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T10:22:42.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AddFavoriteDto.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Dtos\\Home\\AddFavoriteDto.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Dtos\\Home\\AddFavoriteDto.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Dtos\\Home\\AddFavoriteDto.cs",
+              "RelativeToolTip": "Tourism_project\\Dtos\\Home\\AddFavoriteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T20:30:30.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Tourism.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Models\\Tourism.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Models\\Tourism.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Models\\Tourism.cs",
+              "RelativeToolTip": "Tourism_project\\Models\\Tourism.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T08:44:12.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Favorite.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Models\\Favorite.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Models\\Favorite.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Models\\Favorite.cs",
+              "RelativeToolTip": "Tourism_project\\Models\\Favorite.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwBIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T20:28:35.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ActivitysController.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Controllers\\Home\\ActivitysController.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Controllers\\Home\\ActivitysController.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Controllers\\Home\\ActivitysController.cs",
+              "RelativeToolTip": "Tourism_project\\Controllers\\Home\\ActivitysController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T11:46:38.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HotelsController.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Controllers\\Home\\HotelsController.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Controllers\\Home\\HotelsController.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Controllers\\Home\\HotelsController.cs",
+              "RelativeToolTip": "Tourism_project\\Controllers\\Home\\HotelsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkCAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T20:50:02.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SearchController.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Controllers\\Home\\SearchController.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Controllers\\Home\\SearchController.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Controllers\\Home\\SearchController.cs",
+              "RelativeToolTip": "Tourism_project\\Controllers\\Home\\SearchController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T11:49:33.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ActivityDto.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Dtos\\Home\\ActivityDto.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Dtos\\Home\\ActivityDto.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Dtos\\Home\\ActivityDto.cs",
+              "RelativeToolTip": "Tourism_project\\Dtos\\Home\\ActivityDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T11:46:23.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TourismTypeController.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Controllers\\Home\\TourismTypeController.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Controllers\\Home\\TourismTypeController.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Controllers\\Home\\TourismTypeController.cs",
+              "RelativeToolTip": "Tourism_project\\Controllers\\Home\\TourismTypeController.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T11:50:09.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TransportationsController.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Controllers\\Home\\TransportationsController.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Controllers\\Home\\TransportationsController.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Controllers\\Home\\TransportationsController.cs",
+              "RelativeToolTip": "Tourism_project\\Controllers\\Home\\TransportationsController.cs",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T11:50:15.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TripsController.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Controllers\\Home\\TripsController.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Controllers\\Home\\TripsController.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Controllers\\Home\\TripsController.cs",
+              "RelativeToolTip": "Tourism_project\\Controllers\\Home\\TripsController.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T11:50:31.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UpdateProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Controllers\\UpdateProfile\\UpdateProfileController.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Controllers\\UpdateProfile\\UpdateProfileController.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Controllers\\UpdateProfile\\UpdateProfileController.cs",
+              "RelativeToolTip": "Tourism_project\\Controllers\\UpdateProfile\\UpdateProfileController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T11:50:40.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "LocationsController.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Controllers\\Home\\LocationsController.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Controllers\\Home\\LocationsController.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Controllers\\Home\\LocationsController.cs",
+              "RelativeToolTip": "Tourism_project\\Controllers\\Home\\LocationsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T11:48:40.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ServiciesController.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Controllers\\Home\\ServiciesController.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Controllers\\Home\\ServiciesController.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Controllers\\Home\\ServiciesController.cs",
+              "RelativeToolTip": "Tourism_project\\Controllers\\Home\\ServiciesController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T18:40:01.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "RoomsController.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Controllers\\Home\\RoomsController.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Controllers\\Home\\RoomsController.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Controllers\\Home\\RoomsController.cs",
+              "RelativeToolTip": "Tourism_project\\Controllers\\Home\\RoomsController.cs",
+              "ViewState": "AgIAAGUBAAAAAAAAAAAYwGgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T20:08:18.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "BookingDto.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Dtos\\Home\\BookingDto.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Dtos\\Home\\BookingDto.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Dtos\\Home\\BookingDto.cs",
+              "RelativeToolTip": "Tourism_project\\Dtos\\Home\\BookingDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:55:09.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Models\\Service.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Models\\Service.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Models\\Service.cs",
+              "RelativeToolTip": "Tourism_project\\Models\\Service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T15:14:45.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ServicesDto.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Dtos\\Home\\ServicesDto.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Dtos\\Home\\ServicesDto.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Dtos\\Home\\ServicesDto.cs",
+              "RelativeToolTip": "Tourism_project\\Dtos\\Home\\ServicesDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T15:14:29.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "RoomDto.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Dtos\\Home\\RoomDto.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Dtos\\Home\\RoomDto.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Dtos\\Home\\RoomDto.cs",
+              "RelativeToolTip": "Tourism_project\\Dtos\\Home\\RoomDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T21:32:39.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "RoomAvailabilityService.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Services\\RoomAvailabilityService.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Services\\RoomAvailabilityService.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Services\\RoomAvailabilityService.cs",
+              "RelativeToolTip": "Tourism_project\\Services\\RoomAvailabilityService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T11:14:41.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "BookingStatusUpdateService.cs",
+              "DocumentMoniker": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Services\\BookingStatusUpdateService.cs",
+              "RelativeDocumentMoniker": "Tourism_project\\Services\\BookingStatusUpdateService.cs",
+              "ToolTip": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\Services\\BookingStatusUpdateService.cs",
+              "RelativeToolTip": "Tourism_project\\Services\\BookingStatusUpdateService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T11:13:01.727Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

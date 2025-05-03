@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "04vcZ1w86llQblvSZcUqIXwJmI8rRNVGHiBdfB5zybQ=",
+  "Source": "Tourism_project",
+  "BasePath": "_content/Tourism_project",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Tourism_project\\wwwroot",
+      "Source": "Tourism_project",
+      "ContentRoot": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\",
+      "BasePath": "_content/Tourism_project",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

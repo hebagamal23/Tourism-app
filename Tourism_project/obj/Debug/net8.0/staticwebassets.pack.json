@@ -1,0 +1,1461 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\DefualtProfile.jpeg",
+      "PackagePath": "staticwebassets\\Images\\DefualtProfile.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Home\\Archaeological.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Home\\Archaeological.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Home\\Entertainment.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Home\\Entertainment.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Home\\Environmental.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Home\\Environmental.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Home\\Medical.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Home\\Medical.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Home\\Religious.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Home\\Religious.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\AC1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\AC1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\AC2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\AC2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\AC3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\AC3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\AC4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\AC4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\AlAlamein.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\AlAlamein.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel1\\image1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel1\\image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel1\\image2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel1\\image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel1\\image3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel1\\image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel1\\image4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel1\\image4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel1\\image5.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel1\\image5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel1\\image6.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel1\\image6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel1\\image7.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel1\\image7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel1\\image8.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel1\\image8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel1\\room1\\image1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel1\\room1\\image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel1\\room1\\image2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel1\\room1\\image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel1\\room1\\image3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel1\\room1\\image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel1\\room1\\image4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel1\\room1\\image4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel1\\room1\\image5.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel1\\room1\\image5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel1\\room1\\image6.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel1\\room1\\image6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel1\\room1\\image7.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel1\\room1\\image7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel1\\room1\\image8.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel1\\room1\\image8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel2\\image1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel2\\image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel2\\image2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel2\\image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel2\\image3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel2\\image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel2\\image4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel2\\image4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel2\\image5.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel2\\image5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel2\\image6.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel2\\image6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel2\\image7.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel2\\image7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel2\\image8.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel2\\image8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel2\\image9.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel2\\image9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel2\\room1\\image1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel2\\room1\\image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel2\\room1\\image10.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel2\\room1\\image10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel2\\room1\\image2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel2\\room1\\image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel2\\room1\\image3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel2\\room1\\image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel2\\room1\\image4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel2\\room1\\image4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel2\\room1\\image5.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel2\\room1\\image5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel2\\room1\\image6.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel2\\room1\\image6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel2\\room1\\image7.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel2\\room1\\image7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel2\\room1\\image8.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel2\\room1\\image8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel2\\room1\\image9.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel2\\room1\\image9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel3\\image1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel3\\image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel3\\image2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel3\\image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel3\\image3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel3\\image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel3\\image4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel3\\image4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel3\\image5.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel3\\image5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel3\\image6.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel3\\image6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel3\\image7.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel3\\image7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel3\\image8.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel3\\image8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\image1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\image2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\image3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\image4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\image4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\image5.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\image5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\image6.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\image6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\image7.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\image7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\image8.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\image8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\image9.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\image9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room1\\image1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room1\\image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room1\\image2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room1\\image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room1\\image3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room1\\image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room1\\image4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room1\\image4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room1\\image5.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room1\\image5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room2\\image1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room2\\image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room2\\image2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room2\\image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room2\\image3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room2\\image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room2\\image4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room2\\image4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room2\\image5.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room2\\image5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room3\\image1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room3\\image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room3\\image2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room3\\image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room3\\image3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room3\\image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room3\\image4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room3\\image4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room3\\image5.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room3\\image5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room3\\image6.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room3\\image6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room3\\image7.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room3\\image7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room4\\image1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room4\\image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room4\\image2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room4\\image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room4\\image3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room4\\image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room4\\image4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room4\\image4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room5\\image1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room5\\image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room5\\image2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room5\\image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room5\\image3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room5\\image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room5\\image4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room5\\image4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room5\\image5.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room5\\image5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room6\\image1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room6\\image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room6\\image2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room6\\image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room6\\image3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room6\\image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room6\\image4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room6\\image4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room7\\image1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room7\\image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room7\\image2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room7\\image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room7\\image3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room7\\image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room7\\image4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room7\\image4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\AlAlamein\\hotel4\\room7\\image5.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\AlAlamein\\hotel4\\room7\\image5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\AC1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\AC1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\AC2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\AC2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\AC3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\AC3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\AC4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\AC4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\159825487.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\159825487.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\159825971.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\159825971.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\159826966.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\159826966.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\159829547.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\159829547.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\159830943.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\159830943.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\241162743.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\241162743.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\31374405.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\31374405.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\40855599.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\40855599.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\40855629.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\40855629.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\40855672.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\40855672.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\40857645.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\40857645.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\40857654.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\40857654.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\40857664.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\40857664.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\40857681.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\40857681.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\40857689.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\40857689.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\40857705.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\40857705.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\57803248.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\57803248.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\87306666.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\87306666.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurGardenViewRoom\\31374405.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurGardenViewRoom\\31374405.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurGardenViewRoom\\580719397.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurGardenViewRoom\\580719397.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurGardenViewRoom\\580719432.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurGardenViewRoom\\580719432.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurGardenViewRoom\\580719448.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurGardenViewRoom\\580719448.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurGardenViewRoom\\87320590.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurGardenViewRoom\\87320590.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurPoolViewRoom\\242943696.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurPoolViewRoom\\242943696.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurPoolViewRoom\\580725678.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurPoolViewRoom\\580725678.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurPoolViewRoom\\580725691.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurPoolViewRoom\\580725691.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurPoolViewRoom\\580725722.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurPoolViewRoom\\580725722.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurPoolViewRoom\\580725735.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurPoolViewRoom\\580725735.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurPoolViewRoom\\87320590.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurPoolViewRoom\\87320590.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurSeaViewRoom\\580726925.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurSeaViewRoom\\580726925.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurSeaViewRoom\\580726968.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurSeaViewRoom\\580726968.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurSeaViewRoom\\580726978.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurSeaViewRoom\\580726978.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurSeaViewRoom\\580727104.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurSeaViewRoom\\580727104.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurSeaViewRoom\\87319540.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurSeaViewRoom\\87319540.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurSeaViewRoom\\87320590.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\AzurSeaViewRoom\\87320590.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\Panorama\\241162743.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\Panorama\\241162743.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\Panorama\\31374405.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\Panorama\\31374405.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\Panorama\\580852800.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\Panorama\\580852800.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\Panorama\\580852820.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ArabellaAzurResortHurghada\\Panorama\\580852820.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\154913753.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\154913753.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\154914017.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\154914017.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\154914231.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\154914231.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\155448058.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\155448058.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\155448741.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\155448741.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\159832198.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\159832198.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\159834047.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\159834047.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\159834776.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\159834776.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\159835942.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\159835942.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\159837050.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\159837050.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\17075788.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\17075788.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\17075819.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\17075819.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\580678576.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\580678576.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\580685813.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\580685813.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\580686379.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\580686379.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\580687707.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\580687707.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\76172583.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\76172583.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\JuniorSuite\\580690289.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\JuniorSuite\\580690289.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\JuniorSuite\\580690291.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\JuniorSuite\\580690291.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\JuniorSuite\\580690302.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\JuniorSuite\\580690302.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\JuniorSuite\\580690309.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\JuniorSuite\\580690309.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\JuniorSuite\\580690323.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\JuniorSuite\\580690323.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\JuniorSuite\\580690326.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\JuniorSuite\\580690326.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\StandardDoubleRoomwithPoolView\\159836426.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\StandardDoubleRoomwithPoolView\\159836426.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\StandardDoubleRoomwithPoolView\\41280966.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\StandardDoubleRoomwithPoolView\\41280966.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\StandardDoubleRoomwithPoolView\\580690321.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\StandardDoubleRoomwithPoolView\\580690321.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\StandardDoubleRoomwithPoolView\\580690810.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\StandardDoubleRoomwithPoolView\\580690810.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\StandardDoubleRoomwithPoolView\\580690875.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\StandardDoubleRoomwithPoolView\\580690875.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\StandardDoubleRoomwithPoolView\\580690902.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\BelAirAzurResortAdultsOnly\\StandardDoubleRoomwithPoolView\\580690902.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\CordobaSuites\\157822135.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\CordobaSuites\\157822135.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\CordobaSuites\\157822140.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\CordobaSuites\\157822140.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\CordobaSuites\\157822142.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\CordobaSuites\\157822142.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\CordobaSuites\\161478713.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\CordobaSuites\\161478713.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\CordobaSuites\\327507199.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\CordobaSuites\\327507199.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\CordobaSuites\\500643980.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\CordobaSuites\\500643980.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\CordobaSuites\\500644031.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\CordobaSuites\\500644031.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\CordobaSuites\\500644820.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\CordobaSuites\\500644820.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\CordobaSuites\\522467753.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\CordobaSuites\\522467753.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\CordobaSuites\\522467977.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\CordobaSuites\\522467977.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\CordobaSuites\\522468076.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\CordobaSuites\\522468076.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\CordobaSuites\\615920700.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\CordobaSuites\\615920700.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\CordobaSuites\\615920707.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\CordobaSuites\\615920707.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\CordobaSuites\\615920717.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\CordobaSuites\\615920717.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\CordobaSuites\\615920734.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\CordobaSuites\\615920734.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\CordobaSuites\\632234799.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\CordobaSuites\\632234799.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\CordobaSuites\\632235061.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\CordobaSuites\\632235061.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\CordobaSuites\\632235145.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\CordobaSuites\\632235145.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\CordobaSuites\\Room1\\image1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\CordobaSuites\\Room1\\image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\CordobaSuites\\Room1\\image2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\CordobaSuites\\Room1\\image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\CordobaSuites\\Room1\\image3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\CordobaSuites\\Room1\\image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\CordobaSuites\\Room1\\image4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\CordobaSuites\\Room1\\image4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\CordobaSuites\\Room2\\157822132.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\CordobaSuites\\Room2\\157822132.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\CordobaSuites\\Room3\\image1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\CordobaSuites\\Room3\\image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\CordobaSuites\\Room3\\image2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\CordobaSuites\\Room3\\image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\CordobaSuites\\Room3\\image3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\CordobaSuites\\Room3\\image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\CordobaSuites\\Room3\\image4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\CordobaSuites\\Room3\\image4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\CordobaSuites\\Room3\\image5.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\CordobaSuites\\Room3\\image5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\CordobaSuites\\Room3\\image6.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\CordobaSuites\\Room3\\image6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\CordobaSuites\\Room3\\image7.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\CordobaSuites\\Room3\\image7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\GiftunAzurResort\\159837748.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\GiftunAzurResort\\159837748.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\GiftunAzurResort\\159839853.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\GiftunAzurResort\\159839853.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\GiftunAzurResort\\159840286.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\GiftunAzurResort\\159840286.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\GiftunAzurResort\\277001564.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\GiftunAzurResort\\277001564.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\GiftunAzurResort\\277001569.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\GiftunAzurResort\\277001569.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\GiftunAzurResort\\581890783.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\GiftunAzurResort\\581890783.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\GiftunAzurResort\\581892070.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\GiftunAzurResort\\581892070.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\GiftunAzurResort\\581892088.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\GiftunAzurResort\\581892088.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\GiftunAzurResort\\581892091.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\GiftunAzurResort\\581892091.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\GiftunAzurResort\\581896968.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\GiftunAzurResort\\581896968.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\GiftunAzurResort\\66350528.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\GiftunAzurResort\\66350528.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\GiftunAzurResort\\66353234.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\GiftunAzurResort\\66353234.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\GiftunAzurResort\\66357756.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\GiftunAzurResort\\66357756.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\GiftunAzurResort\\66538831.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\GiftunAzurResort\\66538831.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\GiftunAzurResort\\76172583.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\GiftunAzurResort\\76172583.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\GiftunAzurResort\\76173503.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\GiftunAzurResort\\76173503.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\GiftunAzurResort\\Room1\\image1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\GiftunAzurResort\\Room1\\image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\GiftunAzurResort\\Room1\\image2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\GiftunAzurResort\\Room1\\image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\GiftunAzurResort\\Room1\\image3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\GiftunAzurResort\\Room1\\image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\GiftunAzurResort\\Room1\\image4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\GiftunAzurResort\\Room1\\image4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\GiftunAzurResort\\Room1\\image5.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\GiftunAzurResort\\Room1\\image5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\GiftunAzurResort\\Room1\\image6.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\GiftunAzurResort\\Room1\\image6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\GiftunAzurResort\\Room2\\image1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\GiftunAzurResort\\Room2\\image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\GiftunAzurResort\\Room2\\image2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\GiftunAzurResort\\Room2\\image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\GiftunAzurResort\\Room2\\image3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\GiftunAzurResort\\Room2\\image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\GiftunAzurResort\\Room2\\image4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\GiftunAzurResort\\Room2\\image4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\GiftunAzurResort\\Room2\\image5.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\GiftunAzurResort\\Room2\\image5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\GiftunAzurResort\\Room3\\image1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\GiftunAzurResort\\Room3\\image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\GiftunAzurResort\\Room3\\image2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\GiftunAzurResort\\Room3\\image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\GiftunAzurResort\\Room3\\image3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\GiftunAzurResort\\Room3\\image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\GiftunAzurResort\\Room3\\image4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\GiftunAzurResort\\Room3\\image4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\JazAquamarineResort\\279634943.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\JazAquamarineResort\\279634943.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\JazAquamarineResort\\279634950.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\JazAquamarineResort\\279634950.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\JazAquamarineResort\\279635654.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\JazAquamarineResort\\279635654.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\JazAquamarineResort\\279635668.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\JazAquamarineResort\\279635668.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\JazAquamarineResort\\279635674.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\JazAquamarineResort\\279635674.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\JazAquamarineResort\\279635680.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\JazAquamarineResort\\279635680.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\JazAquamarineResort\\279635693.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\JazAquamarineResort\\279635693.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\JazAquamarineResort\\279635705.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\JazAquamarineResort\\279635705.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\JazAquamarineResort\\279635715.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\JazAquamarineResort\\279635715.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\JazAquamarineResort\\279635746.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\JazAquamarineResort\\279635746.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\JazAquamarineResort\\279635760.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\JazAquamarineResort\\279635760.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\JazAquamarineResort\\279635774.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\JazAquamarineResort\\279635774.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\JazAquamarineResort\\279635778.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\JazAquamarineResort\\279635778.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\JazAquamarineResort\\279635782.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\JazAquamarineResort\\279635782.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\JazAquamarineResort\\279635786.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\JazAquamarineResort\\279635786.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\JazAquamarineResort\\279644427.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\JazAquamarineResort\\279644427.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\JazAquamarineResort\\291040780.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\JazAquamarineResort\\291040780.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\JazAquamarineResort\\291040817.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\JazAquamarineResort\\291040817.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\JazAquamarineResort\\291041068.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\JazAquamarineResort\\291041068.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\JazAquamarineResort\\Room1\\imag1.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\JazAquamarineResort\\Room1\\imag1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\JazAquamarineResort\\Room1\\imag2.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\JazAquamarineResort\\Room1\\imag2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\JazAquamarineResort\\Room1\\imag3.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\JazAquamarineResort\\Room1\\imag3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\JazAquamarineResort\\Room2\\image1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\JazAquamarineResort\\Room2\\image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\JazAquamarineResort\\Room2\\image2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\JazAquamarineResort\\Room2\\image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\JazAquamarineResort\\Room2\\image3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\JazAquamarineResort\\Room2\\image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\JazAquamarineResort\\Room2\\image4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\JazAquamarineResort\\Room2\\image4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\JazAquamarineResort\\Room2\\image5.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\JazAquamarineResort\\Room2\\image5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\JazAquamarineResort\\Room3\\image1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\JazAquamarineResort\\Room3\\image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\JazAquamarineResort\\Room3\\image2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\JazAquamarineResort\\Room3\\image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\JazAquamarineResort\\Room3\\image3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\JazAquamarineResort\\Room3\\image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\JazAquamarineResort\\Room3\\image4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\JazAquamarineResort\\Room3\\image4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\JazAquamarineResort\\Room3\\image5.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\JazAquamarineResort\\Room3\\image5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\JazAquamarineResort\\Room3\\image6.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\JazAquamarineResort\\Room3\\image6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\RedconSuites\\250342518.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\RedconSuites\\250342518.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\RedconSuites\\264145908.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\RedconSuites\\264145908.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\RedconSuites\\264146810.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\RedconSuites\\264146810.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\RedconSuites\\264147941.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\RedconSuites\\264147941.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\RedconSuites\\264147944.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\RedconSuites\\264147944.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\RedconSuites\\268348093.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\RedconSuites\\268348093.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\RedconSuites\\270201364.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\RedconSuites\\270201364.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\RedconSuites\\307222430.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\RedconSuites\\307222430.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\RedconSuites\\307223802.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\RedconSuites\\307223802.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\RedconSuites\\307223825.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\RedconSuites\\307223825.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\RedconSuites\\307223850.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\RedconSuites\\307223850.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\RedconSuites\\516718570.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\RedconSuites\\516718570.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\RedconSuites\\516718843.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\RedconSuites\\516718843.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\RedconSuites\\646999575.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\RedconSuites\\646999575.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ShellghadaBlueBeach\\445453694.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ShellghadaBlueBeach\\445453694.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ShellghadaBlueBeach\\445453742.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ShellghadaBlueBeach\\445453742.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ShellghadaBlueBeach\\445453746.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ShellghadaBlueBeach\\445453746.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ShellghadaBlueBeach\\445453749.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ShellghadaBlueBeach\\445453749.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ShellghadaBlueBeach\\445453751.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ShellghadaBlueBeach\\445453751.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ShellghadaBlueBeach\\445453755.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ShellghadaBlueBeach\\445453755.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ShellghadaBlueBeach\\445453758.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ShellghadaBlueBeach\\445453758.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ShellghadaBlueBeach\\445453761.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ShellghadaBlueBeach\\445453761.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ShellghadaBlueBeach\\445453770.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ShellghadaBlueBeach\\445453770.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ShellghadaBlueBeach\\445453825.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ShellghadaBlueBeach\\445453825.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ShellghadaBlueBeach\\566415220.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ShellghadaBlueBeach\\566415220.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ShellghadaBlueBeach\\566416041.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ShellghadaBlueBeach\\566416041.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ShellghadaBlueBeach\\566416126.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ShellghadaBlueBeach\\566416126.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ShellghadaBlueBeach\\566416353.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ShellghadaBlueBeach\\566416353.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\102804019.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\102804019.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\105929907.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\105929907.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\105931087.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\105931087.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\105937871.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\105937871.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\206012007.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\206012007.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\206012014.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\206012014.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\513246529.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\513246529.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\600316108.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\600316108.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\600316677.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\600316677.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\600320760.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\600320760.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\600323095.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\600323095.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\600323106.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\600323106.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\600323129.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\600323129.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\611083499.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\611083499.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\611084017.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\611084017.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\611084451.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\611084451.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\611084636.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\611084636.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\611087181.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\611087181.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\611349645.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\611349645.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\611350697.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\SteigenbergerAldauBeachHotel\\611350697.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\SunBeachHotelSafaga\\519345942.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\SunBeachHotelSafaga\\519345942.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\SunBeachHotelSafaga\\632221120.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\SunBeachHotelSafaga\\632221120.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\SunBeachHotelSafaga\\632234514.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\SunBeachHotelSafaga\\632234514.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\SunBeachHotelSafaga\\632234799.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\SunBeachHotelSafaga\\632234799.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\SunBeachHotelSafaga\\632234883.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\SunBeachHotelSafaga\\632234883.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\SunBeachHotelSafaga\\632235145.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\SunBeachHotelSafaga\\632235145.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\SunBeachHotelSafaga\\639582911.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\SunBeachHotelSafaga\\639582911.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\SunBeachHotelSafaga\\639582919.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\SunBeachHotelSafaga\\639582919.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\TKSuites\\448645627.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\TKSuites\\448645627.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\TKSuites\\448645760.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\TKSuites\\448645760.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\TKSuites\\448646358.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\TKSuites\\448646358.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\TKSuites\\448646566.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\TKSuites\\448646566.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\TKSuites\\448646664.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\TKSuites\\448646664.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\TKSuites\\448646717.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\TKSuites\\448646717.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\TKSuites\\448646784.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\TKSuites\\448646784.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\TKSuites\\448646877.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\TKSuites\\448646877.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\TKSuites\\448646942.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\TKSuites\\448646942.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\TKSuites\\448647003.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\TKSuites\\448647003.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\TKSuites\\448648048.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\TKSuites\\448648048.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\404205569.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\404205569.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\420991324.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\420991324.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\420991387.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\420991387.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\420995296.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\420995296.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\420996390.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\420996390.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\421000739.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\421000739.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\421001978.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\421001978.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\421003187.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\421003187.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\421004529.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\421004529.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\421005527.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\421005527.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\421006026.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\421006026.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\421006164.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\421006164.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\421307439.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\421307439.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\421323200.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\421323200.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\422805926.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\422805926.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\422806120.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\422806120.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\422809347.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\422809347.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\422809378.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\422809378.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\422811565.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\422811565.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\440950629.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\440950629.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\Room1\\image1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\Room1\\image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\Room1\\image2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\Room1\\image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\Room1\\image3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\Room1\\image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\Room1\\image4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\ZenResortSahlHasheeshbyTBH Hotels\\Room1\\image4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Hurghada\\hurghada.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\hurghada.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Sharm\\AC1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Sharm\\AC1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Sharm\\AC2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Sharm\\AC2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Sharm\\AC3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Sharm\\AC3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Sharm\\sharm.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\Sharm\\sharm.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Tourism_project.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Tourism_project.props",
+      "PackagePath": "build\\Tourism_project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Tourism_project.props",
+      "PackagePath": "buildMultiTargeting\\Tourism_project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Tourism_project.props",
+      "PackagePath": "buildTransitive\\Tourism_project.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

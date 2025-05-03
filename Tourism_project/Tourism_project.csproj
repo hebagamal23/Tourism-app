@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="4.8.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="MimeKit" Version="4.8.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Images\Locations\AlAlamein\hotel1\room4\" />
+    <Folder Include="wwwroot\Images\Locations\AlAlamein\hotel1\room3\" />
+    <Folder Include="wwwroot\Images\Locations\AlAlamein\hotel1\room2\" />
+    <Folder Include="wwwroot\Images\Locations\AlAlamein\hotel2\room2\" />
+    <Folder Include="wwwroot\Images\Locations\AlAlamein\hotel2\room3\" />
+    <Folder Include="wwwroot\Images\Locations\AlAlamein\hotel2\room4\" />
+    <Folder Include="wwwroot\Images\Locations\AlAlamein\hotel3\room1\" />
+    <Folder Include="wwwroot\Images\Locations\AlAlamein\hotel3\room2\" />
+    <Folder Include="wwwroot\Images\Locations\AlAlamein\hotel3\room3\" />
+    <Folder Include="wwwroot\Images\Locations\AlAlamein\hotel3\room4\" />
+    <Folder Include="wwwroot\Images\Locations\AlAlamein\hotel5\room1\" />
+    <Folder Include="wwwroot\Images\Locations\AlAlamein\hotel5\room2\" />
+    <Folder Include="wwwroot\Images\Locations\AlAlamein\hotel5\room3\" />
+    <Folder Include="wwwroot\Images\Locations\AlAlamein\hotel5\room4\" />
+    <Folder Include="wwwroot\Images\Locations\Hurghada\ArabellaAzurResortHurghada\EconomyRoomNoview\" />
+    <Folder Include="wwwroot\Images\Locations\sharm\CoralHillsResortSharmElSheikh\single\" />
+    <Folder Include="wwwroot\Images\Locations\sharm\CoralHillsResortSharmElSheikh\Triple Room\" />
+    <Folder Include="wwwroot\Images\Locations\sharm\CoralHillsResortSharmElSheikh\Villa\" />
+    <Folder Include="wwwroot\Images\Locations\sharm\ILMercatoHotelSpa\FamiliyRoom\" />
+    <Folder Include="wwwroot\Images\Locations\sharm\ILMercatoHotelSpa\Superior Double or Twin Room\" />
+    <Folder Include="wwwroot\Images\Locations\sharm\ILMercatoHotelSpa\Triple Superior Room\" />
+    <Folder Include="wwwroot\Images\Locations\sharm\NaamaBlueHotel\Economy Single Room\" />
+    <Folder Include="wwwroot\Images\Locations\sharm\PanoramaNaamaHeights\Deluxe Single Room\" />
+    <Folder Include="wwwroot\Images\Locations\sharm\PanoramaNaamaHeights\Deluxe Triple Room\" />
+    <Folder Include="wwwroot\Images\Locations\sharm\PanoramaNaamaHeights\Standard Single Room\" />
+    <Folder Include="wwwroot\Images\Locations\sharm\PanoramaNaamaHeights\Triple Room\" />
+  </ItemGroup>
+
+</Project>

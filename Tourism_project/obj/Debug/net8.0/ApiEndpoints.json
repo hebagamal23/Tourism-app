@@ -1,0 +1,235 @@
+[
+  {
+    "ContainingType": "Tourism_project.Controllers.Authentication.AcountController",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/Acount/forgot-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Tourism_project.Dtos.Authentication.ForgetPasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Authentication.AcountController",
+    "Method": "Login",
+    "RelativePath": "api/Acount/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDto",
+        "Type": "Tourism_project.Dtos.Authentication.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Authentication.AcountController",
+    "Method": "ResendVerificationCode",
+    "RelativePath": "api/Acount/ResendVerificationCode",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Tourism_project.Dtos.Authentication.ResendVerificationCodeRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Authentication.AcountController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/Acount/reset-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Tourism_project.Dtos.Authentication.ResetPasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Authentication.AcountController",
+    "Method": "SendVerificationCode",
+    "RelativePath": "api/Acount/SendVerificationCode",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tourismRegistrationDto",
+        "Type": "Tourism_project.Dtos.Authentication.TourismRegistration",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Authentication.AcountController",
+    "Method": "ValidateOtp",
+    "RelativePath": "api/Acount/validate-otp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Tourism_project.Dtos.Authentication.VerifyOtpDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Authentication.AcountController",
+    "Method": "VerifyCodeAndRegister",
+    "RelativePath": "api/Acount/VerifyCodeAndRegister",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "verificationCode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.HomePageController",
+    "Method": "GetHotelsByLocation",
+    "RelativePath": "api/HomePage/GetHotelsByTourismTypeAndLocation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "locationId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.HomePageController",
+    "Method": "GetLocationsByTourismType",
+    "RelativePath": "api/HomePage/GetLocationsByTourismType/{tourismTypeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tourismTypeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.HomePageController",
+    "Method": "GetTourismTypes",
+    "RelativePath": "api/HomePage/GetTourismTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.UpdateProfile.UpdateProfileController",
+    "Method": "GetUserProfile",
+    "RelativePath": "api/UpdateProfile/GetUserProfile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.UpdateProfile.UpdateProfileController",
+    "Method": "UpdateProfilePicture",
+    "RelativePath": "api/UpdateProfile/update-profile-picture",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Poster",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.UpdateProfile.UpdateProfileController",
+    "Method": "UpdatePassword",
+    "RelativePath": "api/UpdateProfile/UpdatePassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Tourism_project.Dtos.UpdateProfile.UpdatePasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.UpdateProfile.UpdateProfileController",
+    "Method": "UpdateUserName",
+    "RelativePath": "api/UpdateProfile/UpdateUserName",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Tourism_project.Dtos.UpdateProfile.UpdateUserNameDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Tourism_project.WeatherForecast, Tourism_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
