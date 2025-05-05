@@ -1425,20 +1425,476 @@
       "PackagePath": "staticwebassets\\Images\\Locations\\Hurghada\\hurghada.jpg"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Sharm\\AC1.jpg",
-      "PackagePath": "staticwebassets\\Images\\Locations\\Sharm\\AC1.jpg"
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\AC1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\AC1.jpg"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Sharm\\AC2.jpg",
-      "PackagePath": "staticwebassets\\Images\\Locations\\Sharm\\AC2.jpg"
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\AC2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\AC2.jpg"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Sharm\\AC3.jpg",
-      "PackagePath": "staticwebassets\\Images\\Locations\\Sharm\\AC3.jpg"
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\AC3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\AC3.jpg"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\Sharm\\sharm.jpg",
-      "PackagePath": "staticwebassets\\Images\\Locations\\Sharm\\sharm.jpg"
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\CoralHillsResortSharmElSheikh\\FamilyRoomfor4Adults\\133bc8d5da8e55e4e2f6eed4e0a21849.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\CoralHillsResortSharmElSheikh\\FamilyRoomfor4Adults\\133bc8d5da8e55e4e2f6eed4e0a21849.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\CoralHillsResortSharmElSheikh\\FamilyRoomfor4Adults\\230032353.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\CoralHillsResortSharmElSheikh\\FamilyRoomfor4Adults\\230032353.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\CoralHillsResortSharmElSheikh\\FamilyRoomfor4Adults\\286911899.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\CoralHillsResortSharmElSheikh\\FamilyRoomfor4Adults\\286911899.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\CoralHillsResortSharmElSheikh\\FamilyRoomfor4Adults\\a93e1b2da393fedcc07f1a4a99aabfbb.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\CoralHillsResortSharmElSheikh\\FamilyRoomfor4Adults\\a93e1b2da393fedcc07f1a4a99aabfbb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\CoralHillsResortSharmElSheikh\\Pool View Double or Twin Room\\199370879.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\CoralHillsResortSharmElSheikh\\Pool View Double or Twin Room\\199370879.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\CoralHillsResortSharmElSheikh\\Pool View Double or Twin Room\\230032727.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\CoralHillsResortSharmElSheikh\\Pool View Double or Twin Room\\230032727.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\CoralHillsResortSharmElSheikh\\Pool View Double or Twin Room\\230248791.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\CoralHillsResortSharmElSheikh\\Pool View Double or Twin Room\\230248791.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\CoralHillsResortSharmElSheikh\\Pool View Double or Twin Room\\4929120.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\CoralHillsResortSharmElSheikh\\Pool View Double or Twin Room\\4929120.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\CoralHillsResortSharmElSheikh\\im1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\CoralHillsResortSharmElSheikh\\im1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\CoralHillsResortSharmElSheikh\\im2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\CoralHillsResortSharmElSheikh\\im2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\CoralHillsResortSharmElSheikh\\im3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\CoralHillsResortSharmElSheikh\\im3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\CoralHillsResortSharmElSheikh\\im4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\CoralHillsResortSharmElSheikh\\im4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\CoralHillsResortSharmElSheikh\\im5.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\CoralHillsResortSharmElSheikh\\im5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\CoralHillsResortSharmElSheikh\\im6.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\CoralHillsResortSharmElSheikh\\im6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\CoralHillsResortSharmElSheikh\\im8.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\CoralHillsResortSharmElSheikh\\im8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\Deluxe Double or Twin Room\\143682017.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\Deluxe Double or Twin Room\\143682017.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\Deluxe Double or Twin Room\\2d482a2c19a872111e34b5f4a32ca308.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\Deluxe Double or Twin Room\\2d482a2c19a872111e34b5f4a32ca308.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\Deluxe Double or Twin Room\\39bbf087f571d1cf4739ce3acff5f7eb.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\Deluxe Double or Twin Room\\39bbf087f571d1cf4739ce3acff5f7eb.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\Deluxe Double or Twin Room\\987419665f0c41cb305285a8c73817ae.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\Deluxe Double or Twin Room\\987419665f0c41cb305285a8c73817ae.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\Deluxe Double or Twin Room\\bb6cc4dd2bde3330f6393f0d0a0b0adc.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\Deluxe Double or Twin Room\\bb6cc4dd2bde3330f6393f0d0a0b0adc.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\Deluxe Double or Twin Room\\c94f29bf28e0574eb198f5337d94d096.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\Deluxe Double or Twin Room\\c94f29bf28e0574eb198f5337d94d096.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\Deluxe Double or Twin Room\\f5ac1f5bd846032eef6d77f45bbb2568.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\Deluxe Double or Twin Room\\f5ac1f5bd846032eef6d77f45bbb2568.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\Standard Double or Twin Room\\097ce7f5039749795389f0bc28c64c18.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\Standard Double or Twin Room\\097ce7f5039749795389f0bc28c64c18.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\Standard Double or Twin Room\\17a0a0efaf902a2d44d5c0749fbbbc71.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\Standard Double or Twin Room\\17a0a0efaf902a2d44d5c0749fbbbc71.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\Standard Double or Twin Room\\550323627.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\Standard Double or Twin Room\\550323627.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\Standard Double or Twin Room\\bae40d7a485c3b79e5d736c8fb46206b.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\Standard Double or Twin Room\\bae40d7a485c3b79e5d736c8fb46206b.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\Standard Double or Twin Room\\f1515f00b75bb5753fa43c9be3f01c56.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\Standard Double or Twin Room\\f1515f00b75bb5753fa43c9be3f01c56.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\im1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\im1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\im2.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\im2.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\im3.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\im3.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\im4.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\im4.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\im5.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\im5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\im6.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\im6.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\im7.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ILMercatoHotelSpa\\im7.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\NaamaBlueHotel\\Comfort Quadruple Room\\178997306.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\NaamaBlueHotel\\Comfort Quadruple Room\\178997306.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\NaamaBlueHotel\\Comfort Quadruple Room\\178998270.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\NaamaBlueHotel\\Comfort Quadruple Room\\178998270.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\NaamaBlueHotel\\Comfort Quadruple Room\\178998276.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\NaamaBlueHotel\\Comfort Quadruple Room\\178998276.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\NaamaBlueHotel\\Comfort Quadruple Room\\178998283.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\NaamaBlueHotel\\Comfort Quadruple Room\\178998283.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\NaamaBlueHotel\\Comfort Quadruple Room\\178998292.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\NaamaBlueHotel\\Comfort Quadruple Room\\178998292.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\NaamaBlueHotel\\Economy Double or Twin Room\\04db7f5695ac2a89098014ee65ea52bb.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\NaamaBlueHotel\\Economy Double or Twin Room\\04db7f5695ac2a89098014ee65ea52bb.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\NaamaBlueHotel\\Economy Double or Twin Room\\12218283_20011118030086986543.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\NaamaBlueHotel\\Economy Double or Twin Room\\12218283_20011118030086986543.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\NaamaBlueHotel\\Economy Double or Twin Room\\132082952.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\NaamaBlueHotel\\Economy Double or Twin Room\\132082952.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\NaamaBlueHotel\\Economy Double or Twin Room\\208299180.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\NaamaBlueHotel\\Economy Double or Twin Room\\208299180.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\NaamaBlueHotel\\Economy Double or Twin Room\\218696550.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\NaamaBlueHotel\\Economy Double or Twin Room\\218696550.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\NaamaBlueHotel\\Economy Double or Twin Room\\506283617.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\NaamaBlueHotel\\Economy Double or Twin Room\\506283617.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\NaamaBlueHotel\\Economy Double or Twin Room\\506283620.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\NaamaBlueHotel\\Economy Double or Twin Room\\506283620.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\NaamaBlueHotel\\Economy Triple Room\\12218283_20011117580086986450.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\NaamaBlueHotel\\Economy Triple Room\\12218283_20011117580086986450.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\NaamaBlueHotel\\Economy Triple Room\\208451668.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\NaamaBlueHotel\\Economy Triple Room\\208451668.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\NaamaBlueHotel\\Economy Triple Room\\506283496.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\NaamaBlueHotel\\Economy Triple Room\\506283496.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\NaamaBlueHotel\\Economy Triple Room\\506283620.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\NaamaBlueHotel\\Economy Triple Room\\506283620.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\NaamaBlueHotel\\Economy Triple Room\\8f2af275fadc94e4e75a3371a7720c1d.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\NaamaBlueHotel\\Economy Triple Room\\8f2af275fadc94e4e75a3371a7720c1d.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\NaamaBlueHotel\\Economy Triple Room\\a88df6093e0c9c67559605085371af7f.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\NaamaBlueHotel\\Economy Triple Room\\a88df6093e0c9c67559605085371af7f.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\NaamaBlueHotel\\Standard Double or Twin Room\\208295414.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\NaamaBlueHotel\\Standard Double or Twin Room\\208295414.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\NaamaBlueHotel\\Standard Double or Twin Room\\218693416.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\NaamaBlueHotel\\Standard Double or Twin Room\\218693416.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\NaamaBlueHotel\\Standard Double or Twin Room\\506283620.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\NaamaBlueHotel\\Standard Double or Twin Room\\506283620.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\NaamaBlueHotel\\im1.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\NaamaBlueHotel\\im1.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\NaamaBlueHotel\\im2.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\NaamaBlueHotel\\im2.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\NaamaBlueHotel\\im3.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\NaamaBlueHotel\\im3.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\NaamaBlueHotel\\im4.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\NaamaBlueHotel\\im4.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\NaamaBlueHotel\\im5.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\NaamaBlueHotel\\im5.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\NaamaBlueHotel\\im6.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\NaamaBlueHotel\\im6.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\NaamaBlueHotel\\im7.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\NaamaBlueHotel\\im7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\NaamaBlueHotel\\im8.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\NaamaBlueHotel\\im8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\NaamaBlueHotel\\im9.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\NaamaBlueHotel\\im9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\Deluxe Double or Twin Room with Garden View\\541149091.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\Deluxe Double or Twin Room with Garden View\\541149091.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\Deluxe Double or Twin Room with Garden View\\541149437.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\Deluxe Double or Twin Room with Garden View\\541149437.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\Deluxe Double or Twin Room with Garden View\\541149440.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\Deluxe Double or Twin Room with Garden View\\541149440.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\Deluxe Double or Twin Room with Garden View\\544524374.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\Deluxe Double or Twin Room with Garden View\\544524374.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\Deluxe Double or Twin Room with Garden View\\544524383.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\Deluxe Double or Twin Room with Garden View\\544524383.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\Standard Double or Twin Room\\26559295.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\Standard Double or Twin Room\\26559295.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\Standard Double or Twin Room\\43160127.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\Standard Double or Twin Room\\43160127.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\Standard Double or Twin Room\\43160130.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\Standard Double or Twin Room\\43160130.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\Standard Double or Twin Room\\544522102.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\Standard Double or Twin Room\\544522102.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\Standard Double or Twin Room\\548742223.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\Standard Double or Twin Room\\548742223.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\Standard Double or Twin Room\\cff412482d415123822b9ad7f7fd45b2.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\Standard Double or Twin Room\\cff412482d415123822b9ad7f7fd45b2.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\im1.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\im1.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\im2.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\im2.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\im3.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\im3.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\im4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\im4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\im5.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\im5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\im6.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\PanoramaNaamaHeights\\im6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Deluxe Double Room with Sea View\\599854284.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Deluxe Double Room with Sea View\\599854284.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Deluxe Double Room with Sea View\\606791526.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Deluxe Double Room with Sea View\\606791526.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Deluxe Double Room with Sea View\\606792532.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Deluxe Double Room with Sea View\\606792532.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Deluxe Double Room with Sea View\\606792580.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Deluxe Double Room with Sea View\\606792580.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Deluxe\\599854278.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Deluxe\\599854278.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Deluxe\\599854284.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Deluxe\\599854284.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Deluxe\\606790243.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Deluxe\\606790243.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Deluxe\\606791526.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Deluxe\\606791526.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Deluxe\\606792580.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Deluxe\\606792580.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Deluxe\\632112406.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Deluxe\\632112406.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Family Double Room\\a27b8f42035e307eaa8af9ac6e990680.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Family Double Room\\a27b8f42035e307eaa8af9ac6e990680.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Family Double Room\\c0becd566e85ba8c0c62fa82a7372428.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Family Double Room\\c0becd566e85ba8c0c62fa82a7372428.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Family Double Room\\cc05223413880c2ca228e15d42a5e555.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Family Double Room\\cc05223413880c2ca228e15d42a5e555.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Family Double Room\\d4af4398e3cd9f08b0a8c9af267c0a97.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Family Double Room\\d4af4398e3cd9f08b0a8c9af267c0a97.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Royal Suite\\599854294.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Royal Suite\\599854294.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Royal Suite\\599854295.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Royal Suite\\599854295.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Royal Suite\\599854298.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Royal Suite\\599854298.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Royal Suite\\599854301.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Royal Suite\\599854301.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Sea View Double\\599854286.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Sea View Double\\599854286.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Sea View Double\\599854287.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Sea View Double\\599854287.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Sea View Double\\68aef78afed79c047d48849eac744da2.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Sea View Double\\68aef78afed79c047d48849eac744da2.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Sea View Double\\bea5067100e744fdd0a518f4bb60e73b.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Sea View Double\\bea5067100e744fdd0a518f4bb60e73b.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Sea View Double\\d4ccf2418cc14e74ac265f69835627c3.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Sea View Double\\d4ccf2418cc14e74ac265f69835627c3.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Sea View Double\\e8cc128cff6c26f28cd52a9bbaa1c798.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Sea View Double\\e8cc128cff6c26f28cd52a9bbaa1c798.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Superior Pool View Room\\599853939.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Superior Pool View Room\\599853939.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Superior Pool View Room\\599854304.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Superior Pool View Room\\599854304.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Superior Pool View Room\\599854305.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ReefOasisBeachResort\\Superior Pool View Room\\599854305.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ReefOasisBeachResort\\im1.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ReefOasisBeachResort\\im1.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ReefOasisBeachResort\\im2.webp",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ReefOasisBeachResort\\im2.webp"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ReefOasisBeachResort\\im3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ReefOasisBeachResort\\im3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ReefOasisBeachResort\\im4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ReefOasisBeachResort\\im4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ReefOasisBeachResort\\im5.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ReefOasisBeachResort\\im5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\ReefOasisBeachResort\\im6.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\ReefOasisBeachResort\\im6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Tourism_project\\Tourism_project\\wwwroot\\Images\\Locations\\sharm\\sharm.jpg",
+      "PackagePath": "staticwebassets\\Images\\Locations\\sharm\\sharm.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Tourism_project.Microsoft.AspNetCore.StaticWebAssets.props",

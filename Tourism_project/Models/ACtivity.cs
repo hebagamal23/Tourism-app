@@ -16,3 +16,4 @@
         public ICollection<Favorite> Favorites { get; set; } = new List<Favorite>();
     }
 }
+

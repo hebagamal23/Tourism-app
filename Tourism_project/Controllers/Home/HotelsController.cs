@@ -93,6 +93,7 @@ namespace Tourism_project.Controllers.Home
                     {
                         HotelId = h.HotelId,
                         Name = h.Name,
+                        LocationName = h.Location.Name,
                         Address = h.Address,
                         PricePerNight = h.PricePerNight,
                         Stars = h.Stars,

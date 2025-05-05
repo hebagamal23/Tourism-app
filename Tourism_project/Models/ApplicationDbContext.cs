@@ -57,12 +57,16 @@ namespace Tourism_project.Models
         public DbSet<TemporaryTourismRegistration> TemporaryTourismRegistrations { get; set; }
         public DbSet<BookingActivity> BookingActivities { get; set; }
         public DbSet<LocationActivity> LocationActivities { get; set; }
+
+        public DbSet<AddActivityToCart> AddActivityToCarts { get; set; }
+
         #endregion
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
+            modelBuilder.Entity<ACtivity>().ToTable("Activities");
             #region AddsuperAdmin
             // إنشاء Super Admin Role
             string superAdminRoleId = Guid.NewGuid().ToString();
@@ -368,7 +372,17 @@ namespace Tourism_project.Models
        .Property(h => h.HotelId)
        .HasColumnName("Id"); // هذا يربط HotelId مع العمود Id في قاعدة البيانات
 
-           
+
+
+            // تحديد العلاقة بين TripCart و Activity
+            modelBuilder.Entity<AddActivityToCart>()
+                .HasOne(tc => tc.Activity) // السلة تحتوي على نشاط واحد
+                .WithMany() // النشاط يمكن أن يكون له عدة سجلات في السلة
+                .HasForeignKey(tc => tc.ActivityId) // مفتاح النشاط في السلة
+                .OnDelete(DeleteBehavior.Cascade); // حذف العناصر في السلة إذا تم حذف النشاط
+
+
+
         }
 
     }

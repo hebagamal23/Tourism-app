@@ -145,3 +145,4 @@ C:\Users\El-Wattaneya\source\repos\Tourism_project\Tourism_project\obj\Release\n
 C:\Users\El-Wattaneya\source\repos\Tourism_project\Tourism_project\obj\Release\net8.0\Tourism_project.genruntimeconfig.cache
 C:\Users\El-Wattaneya\source\repos\Tourism_project\Tourism_project\obj\Release\net8.0\ref\Tourism_project.dll
 C:\Users\El-Wattaneya\source\repos\Tourism_project\Tourism_project\bin\Release\net8.0\Tourism_project.staticwebassets.runtime.json
+C:\Users\El-Wattaneya\source\repos\Tourism_project\Tourism_project\obj\Release\net8.0\Tourism_project.sourcelink.json

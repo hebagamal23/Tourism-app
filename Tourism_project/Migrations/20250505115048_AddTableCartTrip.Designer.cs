@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Tourism_project.Models;
 
@@ -11,9 +12,11 @@ using Tourism_project.Models;
 namespace Tourism_project.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250505115048_AddTableCartTrip")]
+    partial class AddTableCartTrip
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -51,7 +54,7 @@ namespace Tourism_project.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "c48ee062-4340-420a-8176-7b27a6d80cbb",
+                            Id = "b1c83d9c-f446-45a9-946b-b35190bcbe03",
                             Name = "SuperAdmin",
                             NormalizedName = "SUPERADMIN"
                         });
@@ -146,8 +149,8 @@ namespace Tourism_project.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "e828e841-2243-4414-9f5a-e63cdc26954b",
-                            RoleId = "c48ee062-4340-420a-8176-7b27a6d80cbb"
+                            UserId = "2af1e004-d441-4b6c-a89c-71ac67094e65",
+                            RoleId = "b1c83d9c-f446-45a9-946b-b35190bcbe03"
                         });
                 });
 
@@ -201,44 +204,6 @@ namespace Tourism_project.Migrations
                     b.HasKey("ActivityId");
 
                     b.ToTable("Activities", (string)null);
-                });
-
-            modelBuilder.Entity("Tourism_project.Models.AddActivityToCart", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("ActivityId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("ActivityImageUrl")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ActivityName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<decimal>("ActivityPrice")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<DateTime>("AddedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("LocationId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ActivityId");
-
-                    b.ToTable("AddActivityToCarts");
                 });
 
             modelBuilder.Entity("Tourism_project.Models.ApplicationTourism", b =>
@@ -314,18 +279,18 @@ namespace Tourism_project.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "e828e841-2243-4414-9f5a-e63cdc26954b",
+                            Id = "2af1e004-d441-4b6c-a89c-71ac67094e65",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "d4bdb092-65ec-4943-a9fc-e896873a39b2",
+                            ConcurrencyStamp = "aafbae52-8bc7-4d27-ac1b-e2d12c9cb37d",
                             Email = "hg2194106@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "HG2194106@GMAIL.COM",
                             NormalizedUserName = "HEBAGAMAL",
-                            PasswordHash = "AQAAAAIAAYagAAAAELnxxrJQ2bAS/uDn0o3HqQvFLiKXI6/8LJB9k1WgrBJ8HF8fncuH09h9zFDjiBDAMw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEPzJ4iyF+1jV4soh0zK83jp8nLBSRqUY1r5qV44vAPtjv1ngF/HNfniIqaoPUarjpg==",
                             PhoneNumber = "123456789",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "aa9bf524-baf9-45a9-883a-09dc571738eb",
+                            SecurityStamp = "d2dfc875-90de-4d43-8895-7996f7d26686",
                             TwoFactorEnabled = false,
                             UserName = "hebagamal"
                         });
@@ -919,6 +884,44 @@ namespace Tourism_project.Migrations
                     b.ToTable("TouristTourismTypes");
                 });
 
+            modelBuilder.Entity("Tourism_project.Models.TripCart", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ActivityId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ActivityImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ActivityName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("ActivityPrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<DateTime>("AddedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("LocationId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ActivityId");
+
+                    b.ToTable("TripCarts");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -968,17 +971,6 @@ namespace Tourism_project.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("Tourism_project.Models.AddActivityToCart", b =>
-                {
-                    b.HasOne("Tourism_project.Models.ACtivity", "Activity")
-                        .WithMany()
-                        .HasForeignKey("ActivityId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Activity");
                 });
 
             modelBuilder.Entity("Tourism_project.Models.Booking", b =>
@@ -1240,6 +1232,17 @@ namespace Tourism_project.Migrations
                     b.Navigation("TourismType");
 
                     b.Navigation("Tourist");
+                });
+
+            modelBuilder.Entity("Tourism_project.Models.TripCart", b =>
+                {
+                    b.HasOne("Tourism_project.Models.ACtivity", "Activity")
+                        .WithMany()
+                        .HasForeignKey("ActivityId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Activity");
                 });
 
             modelBuilder.Entity("Tourism_project.Models.ACtivity", b =>
