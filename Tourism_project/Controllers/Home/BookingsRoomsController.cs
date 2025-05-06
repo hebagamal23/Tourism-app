@@ -444,85 +444,149 @@ namespace Tourism_project.Controllers.Home
         //}
 
 
-        [HttpGet("bookings/{userId}")]
-        public async Task<ActionResult> GetUserBookings(int userId)
+        //[HttpGet("bookings/{userId}")]
+        //public async Task<ActionResult> GetUserBookings(int userId)
+        //{
+        //    try
+        //    {
+        //        var user = await dbContext.users
+        //                .Include(u => u.AspNetUser) 
+        //                .FirstOrDefaultAsync(u => u.TouristId == userId);
+        //        if (user == null)
+        //        {
+        //            return NotFound(new { StatusCode = 404, message = "User not found." });
+        //        }
+
+        //        var bookings = await dbContext.bookings
+        //            .Where(b => b.TouristId == userId)
+        //            .Include(b => b.Room)
+        //            .Include(b => b.BookingActivities)
+        //                .ThenInclude(ba => ba.Activity)
+        //            .ToListAsync();
+
+        //        if (!bookings.Any())
+        //        {
+        //            return NotFound(new { StatusCode = 404, message = "No bookings found for the user." });
+        //        }
+
+        //        // قائمة الحجوزات النهائية
+        //        var bookingList = bookings.Select(b => new
+        //        {
+        //            BookingId = b.BookingId,
+        //            Status = b.Status.ToString(),
+        //            BookingType = b.RoomId.HasValue ? "Room" : (b.BookingActivities.Any() ? "Activity" : "Unknown"),
+
+        //            RoomBooking = b.RoomId.HasValue ? new
+        //            {
+        //                RoomId = b.Room.Id,
+        //                RoomName = b.Room.Name,
+        //                RoomPricePerNight = b.Room.PricePerNight,
+        //                StartDate = b.StartDate,
+        //                EndDate = b.EndDate,
+        //                NumberOfNights = (b.EndDate - b.StartDate).Days,
+        //                NumberOfGuests = b.NumberOfGuests,
+        //                TotalPrice = b.Room.PricePerNight * (b.EndDate - b.StartDate).Days
+        //            } : null,
+
+        //            ActivityBookings = (!b.RoomId.HasValue && b.BookingActivities.Any()) ? b.BookingActivities.Select(ba => new
+        //            {
+        //                ActivityId = ba.Activity.ActivityId,
+        //                ActivityName = ba.Activity.Name,
+        //                Price = ba.Activity.Price,
+        //                StartDate = b.StartDate,
+        //                EndDate = b.EndDate,
+        //                NumberOfGuests = b.NumberOfGuests
+        //            }).ToList() : null
+        //        }).ToList();
+
+        //        // حساب الإجماليات
+        //        decimal totalRoomsPrice = bookingList
+        //            .Where(b => b.RoomBooking != null)
+        //            .Sum(b => (decimal)b.RoomBooking.TotalPrice);
+
+        //        decimal totalActivitiesPrice = bookingList
+        //            .Where(b => b.ActivityBookings != null)
+        //            .SelectMany(b => b.ActivityBookings)
+        //            .Sum(a => (decimal)a.Price);
+
+        //        return Ok(new
+        //        {
+        //            StatusCode = 200,
+        //            Message = "Bookings retrieved successfully.",
+        //            UserInfo = new
+        //            {
+        //                FullName = user.AspNetUser.UserName,
+        //                Email = user.AspNetUser.Email,
+        //                PassportNumber = user.PassportNumber
+        //            },
+        //            TotalRoomBookingsPrice = totalRoomsPrice,
+        //            TotalActivityBookingsPrice = totalActivitiesPrice,
+        //            TotalAllBookingsPrice = totalRoomsPrice + totalActivitiesPrice,
+        //            Data = bookingList
+        //        });
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return StatusCode(500, new
+        //        {
+        //            StatusCode = 500,
+        //            message = "An error occurred while retrieving bookings.",
+        //            details = ex.Message
+        //        });
+        //    }
+        //}
+
+        [HttpGet("room-bookings/{userId}")]
+        public async Task<ActionResult> GetRoomBookings(int userId)
         {
             try
             {
                 var user = await dbContext.users
-                        .Include(u => u.AspNetUser) 
-                        .FirstOrDefaultAsync(u => u.TouristId == userId);
+                    .Include(u => u.AspNetUser)
+                    .FirstOrDefaultAsync(u => u.TouristId == userId);
+
                 if (user == null)
                 {
                     return NotFound(new { StatusCode = 404, message = "User not found." });
                 }
 
-                var bookings = await dbContext.bookings
-                    .Where(b => b.TouristId == userId)
+                var roomBookings = await dbContext.bookings
+                    .Where(b => b.TouristId == userId && b.RoomId != null)
                     .Include(b => b.Room)
-                    .Include(b => b.BookingActivities)
-                        .ThenInclude(ba => ba.Activity)
                     .ToListAsync();
 
-                if (!bookings.Any())
+                if (!roomBookings.Any())
                 {
-                    return NotFound(new { StatusCode = 404, message = "No bookings found for the user." });
+                    return NotFound(new { StatusCode = 404, message = "No room bookings found." });
                 }
 
-                // قائمة الحجوزات النهائية
-                var bookingList = bookings.Select(b => new
+                var result = roomBookings.Select(b => new
                 {
                     BookingId = b.BookingId,
                     Status = b.Status.ToString(),
-                    BookingType = b.RoomId.HasValue ? "Room" : (b.BookingActivities.Any() ? "Activity" : "Unknown"),
-
-                    RoomBooking = b.RoomId.HasValue ? new
-                    {
-                        RoomId = b.Room.Id,
-                        RoomName = b.Room.Name,
-                        RoomPricePerNight = b.Room.PricePerNight,
-                        StartDate = b.StartDate,
-                        EndDate = b.EndDate,
-                        NumberOfNights = (b.EndDate - b.StartDate).Days,
-                        NumberOfGuests = b.NumberOfGuests,
-                        TotalPrice = b.Room.PricePerNight * (b.EndDate - b.StartDate).Days
-                    } : null,
-
-                    ActivityBookings = (!b.RoomId.HasValue && b.BookingActivities.Any()) ? b.BookingActivities.Select(ba => new
-                    {
-                        ActivityId = ba.Activity.ActivityId,
-                        ActivityName = ba.Activity.Name,
-                        Price = ba.Activity.Price,
-                        StartDate = b.StartDate,
-                        EndDate = b.EndDate,
-                        NumberOfGuests = b.NumberOfGuests
-                    }).ToList() : null
+                    RoomId = b.Room.Id,
+                    RoomName = b.Room.Name,
+                    RoomPricePerNight = b.Room.PricePerNight,
+                    StartDate = b.StartDate,
+                    EndDate = b.EndDate,
+                    NumberOfNights = (b.EndDate - b.StartDate).Days,
+                    NumberOfGuests = b.NumberOfGuests,
+                    TotalPrice = b.Room.PricePerNight * (b.EndDate - b.StartDate).Days
                 }).ToList();
 
-                // حساب الإجماليات
-                decimal totalRoomsPrice = bookingList
-                    .Where(b => b.RoomBooking != null)
-                    .Sum(b => (decimal)b.RoomBooking.TotalPrice);
-
-                decimal totalActivitiesPrice = bookingList
-                    .Where(b => b.ActivityBookings != null)
-                    .SelectMany(b => b.ActivityBookings)
-                    .Sum(a => (decimal)a.Price);
+                decimal total = result.Sum(r => (decimal)r.TotalPrice);
 
                 return Ok(new
                 {
                     StatusCode = 200,
-                    Message = "Bookings retrieved successfully.",
+                    Message = "Room bookings retrieved successfully.",
                     UserInfo = new
                     {
                         FullName = user.AspNetUser.UserName,
-                        Email = user.AspNetUser.Email,
-                        PassportNumber = user.PassportNumber
+                        Email = user.AspNetUser.Email
                     },
-                    TotalRoomBookingsPrice = totalRoomsPrice,
-                    TotalActivityBookingsPrice = totalActivitiesPrice,
-                    TotalAllBookingsPrice = totalRoomsPrice + totalActivitiesPrice,
-                    Data = bookingList
+                    TotalRoomBookingsPrice = total,
+                    Data = result
                 });
             }
             catch (Exception ex)
@@ -530,13 +594,12 @@ namespace Tourism_project.Controllers.Home
                 return StatusCode(500, new
                 {
                     StatusCode = 500,
-                    message = "An error occurred while retrieving bookings.",
+                    message = "An error occurred while retrieving room bookings.",
                     details = ex.Message
                 });
             }
         }
 
-   
         #region EndPoint_CancelBooking
 
         [HttpDelete("cancel/{bookingId}")]
