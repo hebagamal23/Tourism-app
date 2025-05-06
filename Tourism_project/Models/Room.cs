@@ -25,7 +25,10 @@
         public ICollection<Booking> Bookings { get; set; } //  A room can have multiple bookings
 
                                                            // علاقة واحد إلى متعدد مع RoomMedia
-        public List<RoomMedia> Media { get; set; } 
+        public List<RoomMedia> Media { get; set; }
+
+        // إضافة علاقة Many-to-Many مع الخدمات
+        public ICollection<RoomService> RoomServices { get; set; }
 
 
         public enum RoomType

@@ -1,4 +1,6 @@
-﻿namespace Tourism_project.Models
+﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace Tourism_project.Models
 {
     public class Service
     {
@@ -14,5 +16,7 @@
         public string? IconType { get; set; }     // نوع الأيقونة (مثلاً: "material" أو "fontawesome")
 
         public ICollection<HotelService> HotelServices { get; set; }
+        // علاقة Many-to-Many مع الغرف
+    public ICollection<RoomService> RoomServices { get; set; }
     }
 }

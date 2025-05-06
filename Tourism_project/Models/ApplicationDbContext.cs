@@ -59,7 +59,9 @@ namespace Tourism_project.Models
         public DbSet<LocationActivity> LocationActivities { get; set; }
 
         public DbSet<AddActivityToCart> AddActivityToCarts { get; set; }
+        public DbSet<RoomService> RoomServices { get; set; }
 
+        
         #endregion
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -380,6 +382,20 @@ namespace Tourism_project.Models
                 .WithMany() // النشاط يمكن أن يكون له عدة سجلات في السلة
                 .HasForeignKey(tc => tc.ActivityId) // مفتاح النشاط في السلة
                 .OnDelete(DeleteBehavior.Cascade); // حذف العناصر في السلة إذا تم حذف النشاط
+
+
+            modelBuilder.Entity<RoomService>()
+       .HasKey(rs => new { rs.RoomId, rs.ServiceId });
+
+            modelBuilder.Entity<RoomService>()
+                .HasOne(rs => rs.Room)
+                .WithMany(r => r.RoomServices)
+                .HasForeignKey(rs => rs.RoomId);
+
+            modelBuilder.Entity<RoomService>()
+                .HasOne(rs => rs.Service)
+                .WithMany(s => s.RoomServices)
+                .HasForeignKey(rs => rs.ServiceId);
 
 
 
