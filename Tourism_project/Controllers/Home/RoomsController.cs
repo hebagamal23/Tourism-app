@@ -508,7 +508,8 @@ namespace Tourism_project.Controllers.Home
                          r.Name,
                          r.PricePerNight,
                          HotelName = r.Hotel.Name, // فقط تحميل اسم الفندق
-                         HotelId = r.Hotel.HotelId // يمكنك تحميل المزيد من البيانات حسب الحاجة
+                         HotelId = r.Hotel.HotelId, // يمكنك تحميل المزيد من البيانات حسب الحاجة
+                         r.IsAvailable
                      })
                      .FirstOrDefaultAsync();
 

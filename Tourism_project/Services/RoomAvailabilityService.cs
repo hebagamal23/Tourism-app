@@ -6,10 +6,12 @@ namespace Tourism_project.Services
     public class RoomAvailabilityService : BackgroundService
     {
         private readonly IServiceScopeFactory _scopeFactory;
+        private readonly ILogger<RoomAvailabilityService> _logger;
 
-        public RoomAvailabilityService(IServiceScopeFactory scopeFactory)
+        public RoomAvailabilityService(IServiceScopeFactory scopeFactory, ILogger<RoomAvailabilityService> logger)
         {
             _scopeFactory = scopeFactory;
+            _logger = logger;
         }
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
@@ -18,24 +20,43 @@ namespace Tourism_project.Services
             {
                 using (var scope = _scopeFactory.CreateScope())
                 {
-                    var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-
-                    var today = DateTime.Today;
-                    var roomsToUpdate = await dbContext.bookings
-                        .Where(b => b.StartDate == today) // يبدأ الحجز اليوم
-                        .Select(b => b.Room)
-                        .ToListAsync();
-
-                    foreach (var room in roomsToUpdate)
+                    try
                     {
-                        room.IsAvailable = false;
-                    }
+                        var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+                        var now = DateTime.Now;
 
-                    await dbContext.SaveChangesAsync();
+                        var roomsToUpdate = await dbContext.bookings
+                            .Include(b => b.Room)
+                            .Where(b => b.StartDate.Date == now.Date &&
+                                        b.StartDate <= now && // بدأ الحجز فعلاً
+                                        b.Room.IsAvailable == true)
+                            .Select(b => b.Room)
+                            .ToListAsync();
+
+                        foreach (var room in roomsToUpdate)
+                        {
+                            room.IsAvailable = false;
+                            _logger.LogInformation($"🚫 تم تحديث الغرفة {room.Id} إلى غير متاحة.");
+                        }
+
+                        if (roomsToUpdate.Any())
+                        {
+                            await dbContext.SaveChangesAsync();
+                            _logger.LogInformation($"✅ تم حفظ التحديثات لـ {roomsToUpdate.Count} غرفة.");
+                        }
+                        else
+                        {
+                            _logger.LogInformation("ℹ️ لا توجد غرف بحاجة إلى تحديث.");
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        _logger.LogError($"⚠️ خطأ في خدمة توافر الغرف: {ex.Message}");
+                    }
                 }
 
-                // تشغيل الخدمة مرة واحدة يوميًا
-                await Task.Delay(TimeSpan.FromDays(1), stoppingToken);
+                // تشغيل الخدمة كل ساعتين
+                await Task.Delay(TimeSpan.FromHours(2), stoppingToken);
             }
         }
     }
