@@ -18,6 +18,7 @@ namespace Tourism_project.Controllers.Home
         }
 
         #region
+
         [HttpPost("add-to-cart")]
         public async Task<IActionResult> AddToCart([FromBody] AddActivityToCartDTO addActivityToCartDTO)
         {
@@ -27,10 +28,19 @@ namespace Tourism_project.Controllers.Home
                 return BadRequest(new { StatusCode = 400, Message = "Invalid request body." });
             }
 
-            // التحقق من أن UserId و ActivityId غير فارغين
-            if (addActivityToCartDTO.UserId <= 0 || addActivityToCartDTO.ActivityId <= 0)
+            // التحقق من أن UserId و ActivityId و NumberOfGuests غير فارغين
+            if (addActivityToCartDTO.UserId <= 0 || addActivityToCartDTO.ActivityId <= 0 || addActivityToCartDTO.NumberOfGuests <= 0)
             {
-                return BadRequest(new { StatusCode = 400 , Message = "UserId and ActivityId must be valid."});
+                return BadRequest(new { StatusCode = 400, Message = "UserId, ActivityId, and NumberOfGuests must be valid." });
+            }
+
+            // التحقق من وجود المستخدم في قاعدة البيانات
+            var userExists = await _context.users
+                .AnyAsync(x => x.TouristId == addActivityToCartDTO.UserId);
+
+            if (!userExists)
+            {
+                return NotFound(new { StatusCode = 404, Message = "User not found." });
             }
 
             // التحقق من وجود النشاط بالفعل في السلة للمستخدم نفسه
@@ -39,7 +49,7 @@ namespace Tourism_project.Controllers.Home
 
             if (existingCartItem != null)
             {
-                return Conflict(new { StatusCode = 409 , Message = "Activity already added to cart." });
+                return Conflict(new { StatusCode = 409, Message = "Activity already added to cart." });
             }
 
             // جلب النشاط من قاعدة البيانات باستخدام ActivityId
@@ -51,7 +61,7 @@ namespace Tourism_project.Controllers.Home
             // التحقق من أن النشاط موجود
             if (activity == null)
             {
-                return NotFound(new { StatusCode = 404, Message = "Activity not found."  });
+                return NotFound(new { StatusCode = 404, Message = "Activity not found." });
             }
 
             // التحقق من وجود مواقع مرتبطة بالنشاط
@@ -64,6 +74,7 @@ namespace Tourism_project.Controllers.Home
             string locationName = locationActivity.Location.Name;
             int locationId = locationActivity.Location.Id;
             var location = activity.locationActivities.FirstOrDefault()?.Location;
+
             // إنشاء كائن جديد من AddActivityToCart
             var addActivityToCart = new AddActivityToCart
             {
@@ -73,8 +84,10 @@ namespace Tourism_project.Controllers.Home
                 ActivityPrice = (decimal)activity.Price,
                 ActivityImageUrl = activity.ImageUrl,
                 LocationId = location.Id,
+                NumberOfGuests = addActivityToCartDTO.NumberOfGuests, // استخدام عدد الضيوف
                 AddedAt = DateTime.Now
             };
+
             // إضافة النشاط إلى السلة
             _context.AddActivityToCarts.Add(addActivityToCart);
             await _context.SaveChangesAsync();
@@ -84,7 +97,6 @@ namespace Tourism_project.Controllers.Home
             {
                 StatusCode = 200,
                 Message = "Activity added to cart.",
-               
                 AddedActivity = new
                 {
                     addActivityToCart.Id,
@@ -94,67 +106,13 @@ namespace Tourism_project.Controllers.Home
                     addActivityToCart.ActivityPrice,
                     addActivityToCart.ActivityImageUrl,
                     LocationName = locationName,
+                    addActivityToCart.NumberOfGuests, // عرض عدد الضيوف
                     addActivityToCart.AddedAt
                 }
             });
         }
+
         #endregion
-
-       
-        #region
-        [HttpGet("cart/{userId}")]
-        public async Task<IActionResult> GetCart(int userId)
-        {
-            try
-            {
-                var cartItems = await _context.AddActivityToCarts
-                    .Where(x => x.UserId == userId)
-                    .Include(x => x.Activity)
-                        .ThenInclude(a => a.locationActivities)
-                            .ThenInclude(la => la.Location)
-                    .Select(x => new
-                    {
-                        ActivityId = x.Activity.ActivityId,
-                        ActivityName = x.Activity.Name,
-                        Image = x.Activity.ImageUrl,
-                        Price = x.Activity.Price,
-                        LocationNames = x.Activity.locationActivities
-                            .Select(la => la.Location.Name)
-                            .ToList()
-                    })
-                    .ToListAsync();
-
-                if (cartItems == null || !cartItems.Any())
-                {
-                    return NotFound(new
-                    {
-                        StatusCode = 404,
-                        Message = "Cart is empty or user not found.",
-                        Data = cartItems
-                    });
-                }
-
-                return Ok(new
-                {
-                    StatusCode = 200,
-                    Message = "Cart retrieved successfully.",
-                    Data = cartItems
-                });
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, new
-                {
-                    StatusCode = 500,
-                    Message = "An error occurred while retrieving the cart.",
-                    Details = ex.Message
-                });
-            }
-        }
-        #endregion
-
-
-
 
 
 
@@ -212,6 +170,73 @@ namespace Tourism_project.Controllers.Home
         #endregion
 
         #region
+
+        [HttpGet("cart/{userId}")]
+        public async Task<IActionResult> GetCart(int userId)
+        {
+            try
+            {
+                // تحقق من أن المستخدم موجود
+                var userExists = await _context.users.AnyAsync(u => u.TouristId == userId);
+                if (!userExists)
+                {
+                    return NotFound(new
+                    {
+                        StatusCode = 404,
+                        Message = "User not found."
+                    });
+                }
+
+                var cartItems = await _context.AddActivityToCarts
+                    .Where(x => x.UserId == userId)
+                    .Include(x => x.Activity)
+                        .ThenInclude(a => a.locationActivities)
+                            .ThenInclude(la => la.Location)
+                    .Select(x => new
+                    {
+                        ActivityId = x.Activity.ActivityId,
+                        ActivityName = x.Activity.Name,
+                        Image = x.Activity.ImageUrl,
+                        PricePerPerson = x.Activity.Price,
+                        PeopleCount = x.NumberOfGuests, // ← تأكد من وجود هذا الحقل
+                        TotalForThisActivity = x.NumberOfGuests * x.Activity.Price,
+                        LocationNames = x.Activity.locationActivities
+                            .Select(la => la.Location.Name)
+                            .ToList()
+                    })
+                    .ToListAsync();
+
+                if (!cartItems.Any())
+                {
+                    return NotFound(new
+                    {
+                        StatusCode = 404,
+                        Message = "Cart is empty.",
+                        Data = cartItems
+                    });
+                }
+
+                // حساب السعر الإجمالي لكل الأنشطة
+                var totalCartPrice = cartItems.Sum(item => item.TotalForThisActivity);
+
+                return Ok(new
+                {
+                    StatusCode = 200,
+                    Message = "Cart retrieved successfully.",
+                    TotalPrice = totalCartPrice,
+                    Data = cartItems
+                });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new
+                {
+                    StatusCode = 500,
+                    Message = "An error occurred while retrieving the cart.",
+                    Details = ex.Message
+                });
+            }
+        }
 
 
         #endregion

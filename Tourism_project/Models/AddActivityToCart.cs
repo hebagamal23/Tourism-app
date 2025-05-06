@@ -22,6 +22,7 @@ namespace Tourism_project.Models
         public int LocationId { get; set; }
 
         public DateTime AddedAt { get; set; } = DateTime.Now;
+        public int NumberOfGuests { get; set; } // ✅ عدد الأشخاص المراد حجزهم
     }
 
 }
