@@ -24,13 +24,13 @@ namespace Tourism_project.Controllers.Home
             // التحقق من أن الـ DTO ليس فارغًا
             if (addActivityToCartDTO == null)
             {
-                return BadRequest(new { Message = "Invalid request body.", StatusCode = 400 });
+                return BadRequest(new { StatusCode = 400, Message = "Invalid request body." });
             }
 
             // التحقق من أن UserId و ActivityId غير فارغين
             if (addActivityToCartDTO.UserId <= 0 || addActivityToCartDTO.ActivityId <= 0)
             {
-                return BadRequest(new { Message = "UserId and ActivityId must be valid.", StatusCode = 400 });
+                return BadRequest(new { StatusCode = 400 , Message = "UserId and ActivityId must be valid."});
             }
 
             // التحقق من وجود النشاط بالفعل في السلة للمستخدم نفسه
@@ -39,7 +39,7 @@ namespace Tourism_project.Controllers.Home
 
             if (existingCartItem != null)
             {
-                return Conflict(new { Message = "Activity already added to cart.", StatusCode = 409 });
+                return Conflict(new { StatusCode = 409 , Message = "Activity already added to cart." });
             }
 
             // جلب النشاط من قاعدة البيانات باستخدام ActivityId
@@ -51,14 +51,14 @@ namespace Tourism_project.Controllers.Home
             // التحقق من أن النشاط موجود
             if (activity == null)
             {
-                return NotFound(new { Message = "Activity not found.", StatusCode = 404 });
+                return NotFound(new { StatusCode = 404, Message = "Activity not found."  });
             }
 
             // التحقق من وجود مواقع مرتبطة بالنشاط
             var locationActivity = activity.locationActivities.FirstOrDefault();
             if (locationActivity == null || locationActivity.Location == null)
             {
-                return NotFound(new { Message = "Location for the activity not found.", StatusCode = 404 });
+                return NotFound(new { StatusCode = 404, Message = "Location for the activity not found." });
             }
 
             string locationName = locationActivity.Location.Name;
@@ -82,8 +82,9 @@ namespace Tourism_project.Controllers.Home
             // الاستجابة مع التفاصيل
             return Ok(new
             {
-                Message = "Activity added to cart.",
                 StatusCode = 200,
+                Message = "Activity added to cart.",
+               
                 AddedActivity = new
                 {
                     addActivityToCart.Id,
@@ -99,20 +100,61 @@ namespace Tourism_project.Controllers.Home
         }
         #endregion
 
+       
         #region
-
         [HttpGet("cart/{userId}")]
         public async Task<IActionResult> GetCart(int userId)
         {
-            var cartItems = await _context.AddActivityToCarts
-                .Where(x => x.UserId == userId)
-                .Include(x => x.Activity) // لعرض تفاصيل النشاط
-                .ToListAsync();
+            try
+            {
+                var cartItems = await _context.AddActivityToCarts
+                    .Where(x => x.UserId == userId)
+                    .Include(x => x.Activity)
+                        .ThenInclude(a => a.locationActivities)
+                            .ThenInclude(la => la.Location)
+                    .Select(x => new
+                    {
+                        ActivityId = x.Activity.ActivityId,
+                        ActivityName = x.Activity.Name,
+                        Image = x.Activity.ImageUrl,
+                        Price = x.Activity.Price,
+                        LocationNames = x.Activity.locationActivities
+                            .Select(la => la.Location.Name)
+                            .ToList()
+                    })
+                    .ToListAsync();
 
-            return Ok(cartItems);
+                if (cartItems == null || !cartItems.Any())
+                {
+                    return NotFound(new
+                    {
+                        StatusCode = 404,
+                        Message = "Cart is empty or user not found.",
+                        Data = cartItems
+                    });
+                }
+
+                return Ok(new
+                {
+                    StatusCode = 200,
+                    Message = "Cart retrieved successfully.",
+                    Data = cartItems
+                });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new
+                {
+                    StatusCode = 500,
+                    Message = "An error occurred while retrieving the cart.",
+                    Details = ex.Message
+                });
+            }
         }
-
         #endregion
+
+
+
 
 
 
@@ -121,18 +163,51 @@ namespace Tourism_project.Controllers.Home
         [HttpDelete("remove-from-cart/{userId}/{activityId}")]
         public async Task<IActionResult> RemoveFromCart(int userId, int activityId)
         {
-            var cartItem = await _context.AddActivityToCarts
-                .FirstOrDefaultAsync(x => x.UserId == userId && x.ActivityId == activityId);
-
-            if (cartItem == null)
+            try
             {
-                return NotFound("Activity not found in cart.");
-            }
+                var userExists = await _context.users.AnyAsync(u => u.TouristId == userId);
+                if (!userExists)
+                {
+                    return NotFound(new
+                    {
+                        StatusCode = 404,
+                        Message = "User not found."
+                    });
+                }
 
-            _context.AddActivityToCarts.Remove(cartItem);
-            await _context.SaveChangesAsync();
-            return Ok("Activity removed from cart.");
+                var cartItem = await _context.AddActivityToCarts
+                    .FirstOrDefaultAsync(x => x.UserId == userId && x.ActivityId == activityId);
+
+                if (cartItem == null)
+                {
+                    return NotFound(new
+                    {
+                        StatusCode = 404,
+                        Message = "Activity not found in cart."
+                    });
+                }
+
+                _context.AddActivityToCarts.Remove(cartItem);
+                await _context.SaveChangesAsync();
+
+                return Ok(new
+                {
+                    StatusCode = 200,
+                    Message = "Activity removed from cart successfully."
+                });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new
+                {
+                    StatusCode = 500,
+                    Message = "An error occurred while removing the activity from the cart.",
+                    Details = ex.Message
+                });
+            }
         }
+
+
 
         #endregion
 

@@ -40,7 +40,7 @@ namespace Tourism_project.Controllers.Home
 
             if (bookings == null || !bookings.Any())
             {
-                return NotFound(new { message = "لا توجد حجوزات حالياً." });
+                return NotFound(new { message = "Not Found Booking Now ." });
             }
 
             return Ok(bookings);
