@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Tourism_project.Models;
 
@@ -11,9 +12,11 @@ using Tourism_project.Models;
 namespace Tourism_project.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250507223012_UpdateBookingActivity")]
+    partial class UpdateBookingActivity
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -51,7 +54,7 @@ namespace Tourism_project.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "a390d93e-f6d3-4e41-8cd2-c7b9b0b827c4",
+                            Id = "485f1973-5273-4e9a-bd4c-61fefa8a5003",
                             Name = "SuperAdmin",
                             NormalizedName = "SUPERADMIN"
                         });
@@ -146,8 +149,8 @@ namespace Tourism_project.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "38e055f0-390a-4de1-a39c-ac1d931e1db0",
-                            RoleId = "a390d93e-f6d3-4e41-8cd2-c7b9b0b827c4"
+                            UserId = "0f48ae6e-1fc7-4c99-baa4-b2f312b8243c",
+                            RoleId = "485f1973-5273-4e9a-bd4c-61fefa8a5003"
                         });
                 });
 
@@ -317,18 +320,18 @@ namespace Tourism_project.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "38e055f0-390a-4de1-a39c-ac1d931e1db0",
+                            Id = "0f48ae6e-1fc7-4c99-baa4-b2f312b8243c",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "711ec1f7-ad3d-4271-bb9a-58bbe48248ac",
+                            ConcurrencyStamp = "d41236b9-240c-456f-8706-26d451d61ad4",
                             Email = "hg2194106@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "HG2194106@GMAIL.COM",
                             NormalizedUserName = "HEBAGAMAL",
-                            PasswordHash = "AQAAAAIAAYagAAAAELeXZXi0ejn73wbpjxsFKJFj34WjoCakWk6JwYKMxTjKB4qMbQMDNDkKZ2piv9Lynw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAECi7NnwMBpd2HJelKU4AMBWddf2u9/rrVvkqzb77tWkEiSH7+XMzhwXJQh8Si8I3ug==",
                             PhoneNumber = "123456789",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "67048d51-1a09-45c4-b576-5d1a26f8aa7c",
+                            SecurityStamp = "24e0ddb3-63d7-46f5-ad83-d9582eb128b5",
                             TwoFactorEnabled = false,
                             UserName = "hebagamal"
                         });
@@ -341,9 +344,6 @@ namespace Tourism_project.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("BookingId"));
-
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime2");
 
                     b.Property<DateTime>("EndDate")
                         .HasColumnType("datetime2");

@@ -1,6 +1,6 @@
 ﻿namespace Tourism_project.Dtos.Home
 {
-    public class AddActivityToCartDTO
+    public class ActivityBookingDateDTO
     {
         public int UserId { get; set; }
         public int ActivityId { get; set; }

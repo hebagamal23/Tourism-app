@@ -9,5 +9,8 @@ namespace Tourism_project.Models
         public int ActivityId { get; set; }
         public ACtivity Activity { get; set; }
 
+        public DateTime ActivityDate { get; set; } 
+        public int NumberOfGuests { get; set; }
+
     }
 }

@@ -141,6 +141,10 @@ namespace Tourism_project
 
             builder.Services.AddHostedService<RoomAvailabilityService>();
 
+            // ≈÷«›… Œœ„… «·‹ BackgroundService
+            builder.Services.AddHostedService<BookingCleanupService>();
+
+
 
             #endregion
 

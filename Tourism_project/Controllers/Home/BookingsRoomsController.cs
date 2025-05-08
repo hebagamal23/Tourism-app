@@ -123,7 +123,7 @@ namespace Tourism_project.Controllers.Home
 
                 // ✅ إنشاء معاملة دفع جديدة
                 DateTime transactionTime = DateTime.UtcNow;
-                DateTime expirationTime = transactionTime.AddMinutes(5); // ⏳ الصلاحية بعد 5 دقائق
+                DateTime expirationTime = transactionTime.AddMinutes(55); // ⏳ الصلاحية بعد 5 دقائق
 
                 var payment = new Payment
                 {

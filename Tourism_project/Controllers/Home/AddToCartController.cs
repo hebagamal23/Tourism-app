@@ -20,7 +20,7 @@ namespace Tourism_project.Controllers.Home
         #region
 
         [HttpPost("add-to-cart")]
-        public async Task<IActionResult> AddToCart([FromBody] AddActivityToCartDTO addActivityToCartDTO)
+        public async Task<IActionResult> AddToCart([FromBody] ActivityBookingDateDTO addActivityToCartDTO)
         {
             // التحقق من أن الـ DTO ليس فارغًا
             if (addActivityToCartDTO == null)

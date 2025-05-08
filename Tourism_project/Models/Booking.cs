@@ -14,13 +14,13 @@ namespace Tourism_project.Models
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public decimal TotalPrice { get; set; }
-        public int NumberOfGuests { get; set; } // ✅ عدد الأفراد في الحجز
-                                                // عمود وقت الدفع
-        public DateTime? PaymentTime { get; set; }  //nullable DateTime for payment time
+        public int NumberOfGuests { get; set; } 
+
+        public DateTime? PaymentTime { get; set; }  
 
 
-        public BookingStatus Status { get; set; } = BookingStatus.Pending; // حالة الحجز
-
+        public BookingStatus Status { get; set; } = BookingStatus.Pending; 
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
 
         [ForeignKey("TouristId")]
         public Tourism Tourist { get; set; }
