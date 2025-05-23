@@ -23,15 +23,15 @@ namespace Tourism_project.Services
         {
             var emailMessage = new MimeMessage();
 
-            // إعداد المرسل
+           
             emailMessage.From.Add(new MailboxAddress(_emailSetting.Value.DisplayName, _emailSetting.Value.Email));
 
-            // إعداد المستقبل
+       
             emailMessage.To.Add(MailboxAddress.Parse(toEmail));
             emailMessage.Subject = subject;
 
 
-            // إعداد محتوى الرسالة
+           
             var bodyBuilder = new BodyBuilder
             {
                 TextBody = textBody,
@@ -39,7 +39,7 @@ namespace Tourism_project.Services
             };
             emailMessage.Body = bodyBuilder.ToMessageBody();
 
-            // إرسال البريد
+          
             using (var client = new SmtpClient())
             {
                 await client.ConnectAsync(_emailSetting.Value.Host, _emailSetting.Value.port, false);

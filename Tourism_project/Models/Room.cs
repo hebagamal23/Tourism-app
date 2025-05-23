@@ -4,30 +4,28 @@
     {
         public int Id { get; set; }
 
-        public string Name { get; set; } // اسم الغرفة
+        public string Name { get; set; }
 
-        public string description { get; set; } // اسم الغرفة
+        public string description { get; set; }
 
-        public RoomType Type { get; set; } // نوع الغرفة (مثل: مزدوجة، فردية)
+        public RoomType Type { get; set; } 
 
         public int BedCount { get; set; }
-        public int MaxOccupancy { get; set; } // عدد الأسرة
-        public double Size { get; set; } // حجم الغرفة بالأمتار المربعة
-        public decimal PricePerNight { get; set; } // سعر الليلة
-        public bool IsAvailable { get; set; } = true; // هل الغرفة متوفرة؟
+        public int MaxOccupancy { get; set; } 
+        public double Size { get; set; } 
+        public decimal PricePerNight { get; set; } 
+        public bool IsAvailable { get; set; } = true; 
 
-        public int HotelId { get; set; } // مفتاح خارجي لربط الغرفة بالفندق
+        public int HotelId { get; set; } 
         public Hotel Hotel { get; set; }
 
        
-        // Navigation property for the relationship with Booking
+        public ICollection<Booking> Bookings { get; set; } 
 
-        public ICollection<Booking> Bookings { get; set; } //  A room can have multiple bookings
-
-                                                           // علاقة واحد إلى متعدد مع RoomMedia
+                                                         
         public List<RoomMedia> Media { get; set; }
 
-        // إضافة علاقة Many-to-Many مع الخدمات
+     
         public ICollection<RoomService> RoomServices { get; set; }
 
 

@@ -24,7 +24,6 @@ namespace Tourism_project.Controllers.Home
         {
             try
             {
-                // البحث عن الفنادق المرتبطة بالموقع
                 var hotels = await dbContext.Hotels
                     .Where(h => h.LocationId == locationId)
                     .Select(h => new HotelDto
@@ -40,7 +39,6 @@ namespace Tourism_project.Controllers.Home
                     })
                     .ToListAsync();
 
-                // إذا لم يتم العثور على فنادق
                 if (!hotels.Any())
                 {
                     return NotFound(new
@@ -73,7 +71,7 @@ namespace Tourism_project.Controllers.Home
         [HttpGet("by-location-name/{locationName}")]
         public async Task<IActionResult> GetHotelsByLocationName(string locationName)
         {
-            // التحقق من صحة إدخال locationName
+          
             if (string.IsNullOrWhiteSpace(locationName))
             {
                 return BadRequest(new
@@ -85,8 +83,7 @@ namespace Tourism_project.Controllers.Home
 
             try
             {
-                // البحث عن الفنادق باستخدام البحث الجزئي مع Contains()
-                locationName = locationName.ToLower(); // تحسين الأداء بتجنب التكرار
+                locationName = locationName.ToLower(); 
                 var hotels = await dbContext.Hotels
                     .Where(h => h.Location.Name.ToLower().Contains(locationName))
                     .Select(h => new HotelDto
@@ -103,7 +100,7 @@ namespace Tourism_project.Controllers.Home
                     })
                     .ToListAsync();
 
-                // إذا لم يتم العثور على أي فنادق
+                
                 if (!hotels.Any())
                 {
                     return NotFound(new
@@ -138,13 +135,13 @@ namespace Tourism_project.Controllers.Home
         [HttpGet("hotel/{hotelId}/images")]
         public async Task<IActionResult> GetImagesByHotelId(int hotelId)
         {
-            // التحقق من صحة hotelId
+            
             if (hotelId <= 0)
             {
                 return BadRequest(new { statusCode = 400, message = "Invalid hotel ID." });
             }
 
-            // البحث عن الصور الخاصة بالفندق باستخدام HotelId
+            
             var images = await dbContext.Media
                 .Where(m => m.HotelId == hotelId)
                 .Select(m => new
@@ -154,13 +151,12 @@ namespace Tourism_project.Controllers.Home
                 })
                 .ToListAsync();
 
-            // إذا لم يتم العثور على أي صور للفندق
+            
             if (!images.Any())
             {
                 return NotFound(new { statusCode = 404, message = "No images found for this hotel." });
             }
 
-            // إرجاع الصور الخاصة بالفندق
             return Ok(images);
         }
         #endregion
@@ -172,12 +168,12 @@ namespace Tourism_project.Controllers.Home
         {
             try
             {
-                // التحقق من وجود الفندق
+               
                 var hotel = await dbContext.Hotels
                     .Where(h => h.HotelId == hotelId)
                     .FirstOrDefaultAsync();
 
-                // إذا لم يتم العثور على الفندق
+                
                 if (hotel == null)
                 {
                     return NotFound(new
@@ -187,7 +183,7 @@ namespace Tourism_project.Controllers.Home
                     });
                 }
 
-                // إرجاع تفاصيل الفندق
+                
                 return Ok(new
                 {
                     Id = hotel.HotelId,
@@ -556,17 +552,17 @@ namespace Tourism_project.Controllers.Home
 
         [HttpGet("filter-hotels")]
         public async Task<IActionResult> FilterHotels(
-    DateTime startDate,
-    DateTime endDate,
-    int? minStars = null,
-    decimal? minPrice = null,
-    decimal? maxPrice = null,
-    int? guests = null,
-    int? roomsRequired = null)
+            DateTime startDate,
+            DateTime endDate,
+            int? minStars = null,
+            decimal? minPrice = null,
+            decimal? maxPrice = null,
+            int? guests = null,
+            int? roomsRequired = null)
         {
             try
             {
-                // ✅ التحقق من صحة التواريخ (إجباري)
+               
                 if (startDate >= endDate)
                 {
                     return BadRequest(new { statusCode = 400, message = "Invalid date range. Start date must be before end date." });
@@ -577,16 +573,16 @@ namespace Tourism_project.Controllers.Home
                     return BadRequest(new { statusCode = 400, message = "Start date cannot be in the past." });
                 }
 
-                // ✅ بناء الاستعلام الأساسي
+             
                 IQueryable<Hotel> query = dbContext.Hotels;
 
-                // ✅ تصفية حسب عدد النجوم (اختياري)
+              
                 if (minStars.HasValue)
                 {
                     query = query.Where(h => h.Stars == minStars);
                 }
 
-                // ✅ تصفية حسب السعر (اختياري)
+          
                 if (minPrice.HasValue)
                 {
                     query = query.Where(h => h.PricePerNight >= minPrice);
@@ -596,10 +592,9 @@ namespace Tourism_project.Controllers.Home
                     query = query.Where(h => h.PricePerNight <= maxPrice);
                 }
 
-                // ✅ تصفية حسب التواريخ (إجباري)
                 query = query.Where(h => h.Rooms.Any(r =>
                     !r.Bookings.Any(b =>
-                        (startDate < b.EndDate && endDate > b.StartDate) // الحجز لا يتعارض مع التواريخ المحددة
+                        (startDate < b.EndDate && endDate > b.StartDate)
                     ) &&
                     (guests == null || r.MaxOccupancy >= guests) &&
                     (roomsRequired == null || h.Rooms.Count(r =>
@@ -609,7 +604,7 @@ namespace Tourism_project.Controllers.Home
                     ) >= roomsRequired)
                 ));
 
-                // ✅ تنفيذ الاستعلام وتحويل النتيجة إلى DTO
+               
                 var filteredHotels = await query.Select(h => new HotelDto
                 {
                     HotelId = h.HotelId,
@@ -622,13 +617,13 @@ namespace Tourism_project.Controllers.Home
                         : "default-image-url.jpg"
                 }).ToListAsync();
 
-                // ✅ التحقق مما إذا لم يتم العثور على أي فنادق
+               
                 if (!filteredHotels.Any())
                 {
                     return NotFound(new { statusCode = 404, message = "No hotels found matching the given criteria." });
                 }
 
-                // ✅ إرجاع القائمة النهائية للفنادق
+       
                 return Ok(new { statusCode = 200, message = "Hotels retrieved successfully.", data = filteredHotels });
             }
             catch (Exception ex)

@@ -17,10 +17,12 @@ namespace Tourism_project.Controllers.Home
         {
             this.dbContext = dbContext;
         }
+
+
         [HttpGet("services/{hotelId}")]
         public async Task<IActionResult> GetServicesByHotelId(int hotelId)
         {
-            // نتحقق أولاً من وجود الفندق
+            
             var hotelExists = await dbContext.Hotels.AnyAsync(h => h.HotelId == hotelId);
             if (!hotelExists)
             {
@@ -31,7 +33,7 @@ namespace Tourism_project.Controllers.Home
                 });
             }
 
-            // لو الفندق موجود، نرجع الخدمات
+         
             var services = await dbContext.HotelServices
                 .Where(hs => hs.HotelId == hotelId)
                 .Select(hs => new ServicesDto

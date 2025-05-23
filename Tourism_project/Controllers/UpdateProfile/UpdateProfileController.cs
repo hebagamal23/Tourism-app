@@ -35,7 +35,7 @@ namespace Tourism_project.Controllers.UpdateProfile
         [HttpPost("UpdateUserName")]
         public async Task<IActionResult> UpdateUserName([FromBody] UpdateUserNameDto model)
         {
-            // التحقق من إدخال اسم المستخدم الجديد
+            
             if (string.IsNullOrWhiteSpace(model.NewUserName))
             {
                 return BadRequest(new
@@ -81,7 +81,6 @@ namespace Tourism_project.Controllers.UpdateProfile
                     Message = "User not found." });
             }
 
-            // تحقق من كلمة المرور القديمة
             var checkPassword = await userManager.CheckPasswordAsync(user, model.OldPassword);
             if (!checkPassword)
             {
@@ -90,13 +89,13 @@ namespace Tourism_project.Controllers.UpdateProfile
                     StatusCode = 400,
                     Message = "Old password is incorrect."});
             }
-            // تحقق من أن NewPassword و ConfirmPassword متطابقان
+            
             if (model.NewPassword != model.ConfirmPassword)
             {
                 return BadRequest(new { statusCode = 400, Message = "Passwords do not match." });
             }
 
-            // تحديث كلمة المرور
+           
             var result = await userManager.ChangePasswordAsync(user, model.OldPassword, model.NewPassword);
 
             if (!result.Succeeded)
@@ -108,87 +107,12 @@ namespace Tourism_project.Controllers.UpdateProfile
         }
         #endregion
 
-        #region EndPoint_SendOtpForEmailUpdate
-
-        //[HttpPost("SendOtpForEmailUpdate")]
-        //public async Task<IActionResult> SendOtpForEmailUpdate([FromBody] UpdateEmailDto model)
-        //{
-        //    // التحقق من صحة البريد الإلكتروني الجديد
-        //    if (!new EmailAddressAttribute().IsValid(model.NewEmail))
-        //    {
-        //        return BadRequest("Invalid email format.");
-        //    }
-
-        //    // تحقق إذا كان البريد الإلكتروني الجديد مستخدمًا مسبقًا
-        //    var existingUser = await userManager.FindByEmailAsync(model.NewEmail);
-        //    if (existingUser != null)
-        //    {
-        //        return BadRequest("This email is already taken.");
-        //    }
-
-        //    // إنشاء كود OTP
-        //    var otp = new Random().Next(100000, 999999).ToString();
-
-        //    // إرسال الكود عبر خدمة البريد الإلكتروني
-        //    string subject = "Email Verification Code";
-        //    string message = $"Your verification code is: {otp}. It is valid for 10 minutes.";
-        //    await _emailServices.SendVerificationEmail(model.NewEmail, subject, message, message);
-
-        //    // حفظ الكود في الجلسة
-        //    HttpContext.Session.SetString("OtpForEmailUpdate", otp);
-        //    HttpContext.Session.SetString("NewEmailForUpdate", model.NewEmail);
-
-        //    return Ok(new { message = "OTP sent successfully. Please check your email." });
-        //}
-
-        #endregion
-
-        #region EndPoint_UpdateEmailWithOtp
-
-        //[HttpPost("UpdateEmailWithOtp")]
-        //public async Task<IActionResult> UpdateEmailWithOtp([FromBody] ConfirmOtpDto model)
-        //{
-        //    var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-        //    var user = await userManager.FindByIdAsync(userId);
-
-        //    if (user == null)
-        //    {
-        //        return BadRequest("User not found.");
-        //    }
-
-        //    // التحقق من كود OTP من الجلسة
-        //    var savedOtp = HttpContext.Session.GetString("OtpForEmailUpdate");
-        //    var newEmail = HttpContext.Session.GetString("NewEmailForUpdate");
-
-        //    if (string.IsNullOrEmpty(savedOtp) || savedOtp != model.Otp)
-        //    {
-        //        return BadRequest("Invalid or expired OTP.");
-        //    }
-
-        //    // تحديث البريد الإلكتروني
-        //    user.Email = newEmail;
-        //    user.UserName = newEmail;  // تحديث اسم المستخدم ليطابق البريد الإلكتروني
-        //    var result = await userManager.UpdateAsync(user);
-
-        //    if (!result.Succeeded)
-        //    {
-        //        return BadRequest(result.Errors);
-        //    }
-
-        //    // إزالة OTP من الجلسة بعد نجاح العملية
-        //    HttpContext.Session.Remove("OtpForEmailUpdate");
-        //    HttpContext.Session.Remove("NewEmailForUpdate");
-
-        //    return Ok(new { message = "Email updated successfully." });
-        //}
-        #endregion
-
-       
+   
 
         #region EndPoint_UpdateProfilePicture
 
 
-            [HttpPost("update-profile-picture")]
+     [HttpPost("update-profile-picture")]
     public async Task<IActionResult> UpdateProfilePicture([FromForm] UpdateProfilePictureDto dto)
     {
         var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
@@ -265,10 +189,6 @@ namespace Tourism_project.Controllers.UpdateProfile
 
         #endregion
 
-
-
-
-
         #region EndPoint_GetUserProfile
 
 
@@ -278,11 +198,11 @@ namespace Tourism_project.Controllers.UpdateProfile
         {
             try
             {
-                // استخراج الـ UserId من التوكين
+                
                 var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
                 if (string.IsNullOrEmpty(userId))
                 {
-                    // التوكن غير صالح أو لا يحتوي على UserId
+                   
                     return Unauthorized(new
                     {
                         statusCode = 401,
@@ -292,7 +212,7 @@ namespace Tourism_project.Controllers.UpdateProfile
 
                 Console.WriteLine($"Extracted UserId: {userId}");
 
-                // ابحث عن المستخدم
+                
                 var user = await userManager.FindByIdAsync(userId);
                 if (user == null)
                 {
@@ -303,7 +223,7 @@ namespace Tourism_project.Controllers.UpdateProfile
                     });
                 }
 
-                // ابحث عن السياحة
+               
                 var tourism = await _context.users.FirstOrDefaultAsync(t => t.AspNetUserId == userId);
                 if (tourism == null)
                 {
@@ -315,10 +235,10 @@ namespace Tourism_project.Controllers.UpdateProfile
                     });
                 }
 
-                // تحويل الصورة إلى Base64 إذا كانت موجودة
+                
                 var profilePicture = tourism.Poster;
 
-                // إرجاع البيانات
+           
                 return Ok(new
                 {
                     

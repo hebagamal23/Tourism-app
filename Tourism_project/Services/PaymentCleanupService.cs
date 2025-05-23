@@ -19,7 +19,7 @@ namespace Tourism_project.Services
                 using (var scope = _serviceScopeFactory.CreateScope())
                 {
                     var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-                    var expirationTime = DateTime.UtcNow.AddMinutes(-5); // ⏳ المهلة: 5 دقائق
+                    var expirationTime = DateTime.UtcNow.AddMinutes(-5); 
 
                     var expiredPayments = dbContext.Payments
                         .Where(p => p.Status == "Pending" && p.PaymentTime <= expirationTime)
@@ -27,27 +27,27 @@ namespace Tourism_project.Services
 
                     foreach (var payment in expiredPayments)
                     {
-                        // ❌ تحديث الدفع إلى "Expired"
+                        
                         payment.Status = "Expired";
 
-                        // ❌ البحث عن الحجز المرتبط وإلغاؤه
+                       
                         var booking = dbContext.bookings.FirstOrDefault(b => b.BookingId == payment.BookingId);
                         if (booking != null)
                         {
                             var room = dbContext.Rooms.FirstOrDefault(r => r.Id == booking.RoomId);
                             if (room != null)
                             {
-                                room.IsAvailable = true; // ✅ إعادة الغرفة للحجز
+                                room.IsAvailable = true; 
                             }
 
-                            dbContext.bookings.Remove(booking); // ❌ حذف الحجز
+                            dbContext.bookings.Remove(booking); 
                         }
                     }
 
                     await dbContext.SaveChangesAsync();
                 }
 
-                await Task.Delay(TimeSpan.FromMinutes(1), stoppingToken); // 🔄 تشغيل كل دقيقة
+                await Task.Delay(TimeSpan.FromMinutes(1), stoppingToken); 
             }
         }
     }

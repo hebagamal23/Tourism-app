@@ -7,10 +7,10 @@ namespace Tourism_project.Models
 
         [Key]
         public int RestrictionTypeId { get; set; }
-        public string Name { get; set; }  // مثل: "No Smoking", "No Pets"
+        public string Name { get; set; } 
 
         // العلاقة مع HotelRestriction
-        public ICollection<HotelRestriction> HotelRestrictions { get; set; }  // ملاحظة: الاسم "HotelRestrictions" مهم في العلاقة
+        public ICollection<HotelRestriction> HotelRestrictions { get; set; } 
 
     }
 }

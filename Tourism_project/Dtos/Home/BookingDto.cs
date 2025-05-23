@@ -9,7 +9,7 @@
         public DateTime EndDate { get; set; }
        
         public int PaymentMethodId { get; set; }
-        public int NumberOfGuests { get; set; } // ✅ عدد الأفراد في الحجز
+        public int NumberOfGuests { get; set; } 
 
 
 

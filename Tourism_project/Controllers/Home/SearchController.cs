@@ -48,7 +48,7 @@ namespace Tourism_project.Controllers.Home
         #endregion
 
         #region EndPoint_SearchBy{Location , Hotal, Activity}
-        // البحث عن الأماكن أو الفنادق أو الأنشطة حسب الكلمة المفتاحية
+
         [HttpGet]
         public async Task<IActionResult> Search([FromQuery] string query)
         {
@@ -77,36 +77,7 @@ namespace Tourism_project.Controllers.Home
 
         #endregion
 
-        #region
-        //// فلترة الأماكن حسب نوع السياحة ونطاق السعر
-        //[HttpGet("filter")]
-        //public async Task<IActionResult> FilterPlaces([FromQuery] int tourismTypeId, [FromQuery] string priceRange)
-        //{
-        //    var query = dbContext.Locations.AsQueryable();
-
-        //    if (tourismTypeId > 0)
-        //    {
-        //        query = query.Where(p => p.Id == tourismTypeId);
-        //    }
-
-        //    if (!string.IsNullOrEmpty(priceRange) && priceRange.Contains("-"))
-        //    {
-        //        var prices = priceRange.Split('-');
-        //        if (decimal.TryParse(prices[0], out decimal minPrice) && decimal.TryParse(prices[1], out decimal maxPrice))
-        //        {
-        //            query = query.Where(p => p.Price >= minPrice && p.Price <= maxPrice);
-        //        }
-        //    }
-
-        //    var result = await query.ToListAsync();
-        //    return Ok(result);
-        //}
-        #endregion
-
-        #region
-
-
-        #endregion
+        
 
     }
 

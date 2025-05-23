@@ -28,7 +28,7 @@ namespace Tourism_project.Services
                         var roomsToUpdate = await dbContext.bookings
                             .Include(b => b.Room)
                             .Where(b => b.StartDate.Date == now.Date &&
-                                        b.StartDate <= now && // بدأ الحجز فعلاً
+                                        b.StartDate <= now &&
                                         b.Room.IsAvailable == true)
                             .Select(b => b.Room)
                             .ToListAsync();
@@ -36,29 +36,27 @@ namespace Tourism_project.Services
                         foreach (var room in roomsToUpdate)
                         {
                             room.IsAvailable = false;
-                            _logger.LogInformation($"🚫 تم تحديث الغرفة {room.Id} إلى غير متاحة.");
+                            _logger.LogInformation($"Room {room.Id} has been marked as unavailable.");
                         }
 
                         if (roomsToUpdate.Any())
                         {
                             await dbContext.SaveChangesAsync();
-                            _logger.LogInformation($"✅ تم حفظ التحديثات لـ {roomsToUpdate.Count} غرفة.");
+                            _logger.LogInformation($"{roomsToUpdate.Count} room(s) updated successfully.");
                         }
                         else
                         {
-                            _logger.LogInformation("ℹ️ لا توجد غرف بحاجة إلى تحديث.");
+                            _logger.LogInformation("No rooms needed updating.");
                         }
                     }
                     catch (Exception ex)
                     {
-                        _logger.LogError($"⚠️ خطأ في خدمة توافر الغرف: {ex.Message}");
+                        _logger.LogError($"Error in room availability service: {ex.Message}");
                     }
                 }
 
-                // تشغيل الخدمة كل ساعتين
                 await Task.Delay(TimeSpan.FromMinutes(1), stoppingToken);
             }
         }
     }
-
 }

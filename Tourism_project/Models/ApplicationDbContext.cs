@@ -121,9 +121,9 @@ namespace Tourism_project.Models
             // تعريف العلاقة بين Tourism و AspNetUsers
             modelBuilder.Entity<Tourism>()
                 .HasOne(t => t.AspNetUser)
-                .WithMany() // إذا لم تكن هناك قائمة من الـ Tourism في AspNetUsers
+                .WithMany() 
                 .HasForeignKey(t => t.AspNetUserId)
-                .OnDelete(DeleteBehavior.Cascade); // حذف السائح عند حذف المستخدم
+                .OnDelete(DeleteBehavior.Cascade); 
 
             #endregion
 
@@ -194,21 +194,7 @@ namespace Tourism_project.Models
                 .HasForeignKey(ba => ba.ActivityId);
             #endregion
 
-            #region  // العلاقة many-to-many بين Transportation و Location عبر TransportationLocation
-            //// العلاقة many-to-many بين Transportation و Location عبر TransportationLocation
-            //modelBuilder.Entity<TransportationLocation>()
-            //    .HasKey(tl => new { tl.TransportationId, tl.LocationId });
-
-            //modelBuilder.Entity<TransportationLocation>()
-            //    .HasOne(tl => tl.Transportation)
-            //    .WithMany(t => t.TransportationLocations)
-            //    .HasForeignKey(tl => tl.TransportationId);
-
-            //modelBuilder.Entity<TransportationLocation>()
-            //    .HasOne(tl => tl.Location)
-            //    .WithMany(l => l.TransportationLocations)
-            //    .HasForeignKey(tl => tl.LocationId);
-            #endregion
+            
 
             #region // Location -> Hotels
             // Location -> Hotels
@@ -232,10 +218,10 @@ namespace Tourism_project.Models
             #region  Hotel -> Media 
             // تحديد العلاقة بين Hotel و Media
             modelBuilder.Entity<MediaHotels>()
-                .HasOne(m => m.Hotel)  // لكل وسائط (Media) فندق واحد
-                .WithMany(h => h.Media)  // لكل فندق عدة وسائط
-                .HasForeignKey(m => m.HotelId)  // المفتاح الأجنبي
-                .OnDelete(DeleteBehavior.Cascade);  // إذا تم حذف فندق، يتم حذف الوسائط الخاصة به أيضًا
+                .HasOne(m => m.Hotel)  
+                .WithMany(h => h.Media)  
+                .HasForeignKey(m => m.HotelId)  
+                .OnDelete(DeleteBehavior.Cascade);  
 
             #endregion
 
@@ -270,21 +256,21 @@ namespace Tourism_project.Models
     .HasKey(p => p.PaymentMethodId); // تأكد من تطابق المفتاح الأساسي مع الجدول
 
 
-            // ✅ العلاقة 1 - 1 بين Booking و Payment
+            
             modelBuilder.Entity<Payment>()
                 .HasOne(p => p.Booking)
                 .WithOne(b => b.Payment)
                 .HasForeignKey<Payment>(p => p.BookingId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            // ✅ العلاقة 1-N بين PaymentMethod و Payment
+           
             modelBuilder.Entity<Payment>()
                 .HasOne(p => p.PaymentMethod)
                 .WithMany(pm => pm.Payments)
                 .HasForeignKey(p => p.PaymentMethodId)
                 .OnDelete(DeleteBehavior.Restrict); // لا تحذف طريقة الدفع عند حذف الدفع
 
-            // ✅ تحديد نوع العمود لـ TransactionFee
+            
             modelBuilder.Entity<PaymentMethod>()
                 .Property(p => p.TransactionFee)
                 .HasColumnType("decimal(18,2)");
@@ -351,13 +337,13 @@ namespace Tourism_project.Models
             // العلاقة many-to-many بين Hotel و RestrictionType عبر جدول وسيط HotelRestriction
             modelBuilder.Entity<HotelRestriction>()
                 .HasOne(hr => hr.Hotel)
-                .WithMany(h => h.Restrictions)  // هذا الجزء في فئة Hotel
-                .HasForeignKey(hr => hr.HotelId);  // مفتاح الفندق الأجنبي في HotelRestriction
+                .WithMany(h => h.Restrictions)  
+                .HasForeignKey(hr => hr.HotelId);  
 
             modelBuilder.Entity<HotelRestriction>()
                 .HasOne(hr => hr.RestrictionType)
-                .WithMany(rt => rt.HotelRestrictions)  // هذا الجزء في فئة RestrictionType
-                .HasForeignKey(hr => hr.RestrictionTypeId);  // مفتاح RestrictionType الأجنبي في HotelRestriction
+                .WithMany(rt => rt.HotelRestrictions)  
+                .HasForeignKey(hr => hr.RestrictionTypeId);  
 
             // تحديد المفتاح المركب للجدول الوسيط
             modelBuilder.Entity<TourismTypeLocation>()
@@ -365,23 +351,23 @@ namespace Tourism_project.Models
 
 
             modelBuilder.Entity<MediaHotels>()
-        .HasKey(m => m.MediaId); // تحديد MediaId كمفتاح أساسي
+        .HasKey(m => m.MediaId); 
 
             modelBuilder.Entity<RoomMedia>()
-       .HasKey(m => m.MediaId); // تحديد المفتاح الأساسي
+       .HasKey(m => m.MediaId);
 
             modelBuilder.Entity<Hotel>()
        .Property(h => h.HotelId)
-       .HasColumnName("Id"); // هذا يربط HotelId مع العمود Id في قاعدة البيانات
+       .HasColumnName("Id");
 
 
 
             // تحديد العلاقة بين TripCart و Activity
             modelBuilder.Entity<AddActivityToCart>()
-                .HasOne(tc => tc.Activity) // السلة تحتوي على نشاط واحد
-                .WithMany() // النشاط يمكن أن يكون له عدة سجلات في السلة
-                .HasForeignKey(tc => tc.ActivityId) // مفتاح النشاط في السلة
-                .OnDelete(DeleteBehavior.Cascade); // حذف العناصر في السلة إذا تم حذف النشاط
+                .HasOne(tc => tc.Activity) 
+                .WithMany() 
+                .HasForeignKey(tc => tc.ActivityId)
+                .OnDelete(DeleteBehavior.Cascade); 
 
 
             modelBuilder.Entity<RoomService>()

@@ -11,18 +11,18 @@ namespace Tourism_project.Models
         public int TouristId { get; set; }
 
         [Required]
-        public string AspNetUserId { get; set; } // المفتاح الخارجي الذي يربط بـ AspNetUsers
+        public string AspNetUserId { get; set; } 
 
         [Required]
         public int PassportNumber { get; set; }
 
         public string? Poster { get; set; }
 
-        // العلاقة مع جدول AspNetUsers
+        
         [ForeignKey(nameof(AspNetUserId))]
         public ApplicationTourism AspNetUser { get; set; }
         public ICollection<Booking> Bookings { get; set; }
-        // علاقة متعددة إلى متعددة
+       
         public ICollection<TouristTourismType> TouristTourismTypes { get; set; }
 
 

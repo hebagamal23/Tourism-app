@@ -7,7 +7,7 @@
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public int NumberOfGuests { get; set; }
-        public string TouristName { get; set; }  // اسم المستخدم
-        public string BookingStatus { get; set; }  // حالة الحجز
+        public string TouristName { get; set; }  
+        public string BookingStatus { get; set; }  
     }
 }

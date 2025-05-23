@@ -7,12 +7,12 @@ namespace Tourism_project.Models
         [Key]
         public int RestrictionId { get; set; }
 
-        public int HotelId { get; set; }  // المفتاح الأجنبي مع الجدول Hotel
+        public int HotelId { get; set; }  
         public Hotel Hotel { get; set; }
 
-        public int RestrictionTypeId { get; set; }  // المفتاح الأجنبي مع جدول RestrictionType
+        public int RestrictionTypeId { get; set; }  
         public RestrictionType RestrictionType { get; set; }
 
-        public string Description { get; set; }  // وصف الحظر (اختياري)
+        public string Description { get; set; }  
     }
 }

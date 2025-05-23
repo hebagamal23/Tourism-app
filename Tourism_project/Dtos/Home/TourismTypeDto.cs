@@ -7,6 +7,6 @@
         public string Description { get; set; }
         public string ImageUrl { get; set; }
         public Boolean is_active { get; set; }
-        // يمكنك إضافة أي خصائص أخرى ضرورية فقط
+        
     }
 }

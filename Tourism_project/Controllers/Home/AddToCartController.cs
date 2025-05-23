@@ -17,24 +17,21 @@ namespace Tourism_project.Controllers.Home
             this._context = dbContext;
         }
 
-        #region
+        #region EndPoint_AddToCart
 
         [HttpPost("add-to-cart")]
         public async Task<IActionResult> AddToCart([FromBody] ActivityBookingDateDTO addActivityToCartDTO)
         {
-            // التحقق من أن الـ DTO ليس فارغًا
             if (addActivityToCartDTO == null)
             {
                 return BadRequest(new { StatusCode = 400, Message = "Invalid request body." });
             }
 
-            // التحقق من أن UserId و ActivityId و NumberOfGuests غير فارغين
             if (addActivityToCartDTO.UserId <= 0 || addActivityToCartDTO.ActivityId <= 0 || addActivityToCartDTO.NumberOfGuests <= 0)
             {
                 return BadRequest(new { StatusCode = 400, Message = "UserId, ActivityId, and NumberOfGuests must be valid." });
             }
 
-            // التحقق من وجود المستخدم في قاعدة البيانات
             var userExists = await _context.users
                 .AnyAsync(x => x.TouristId == addActivityToCartDTO.UserId);
 
@@ -43,7 +40,7 @@ namespace Tourism_project.Controllers.Home
                 return NotFound(new { StatusCode = 404, Message = "User not found." });
             }
 
-            // التحقق من وجود النشاط بالفعل في السلة للمستخدم نفسه
+
             var existingCartItem = await _context.AddActivityToCarts
                 .FirstOrDefaultAsync(x => x.UserId == addActivityToCartDTO.UserId && x.ActivityId == addActivityToCartDTO.ActivityId);
 
@@ -52,19 +49,16 @@ namespace Tourism_project.Controllers.Home
                 return Conflict(new { StatusCode = 409, Message = "Activity already added to cart." });
             }
 
-            // جلب النشاط من قاعدة البيانات باستخدام ActivityId
             var activity = await _context.Activities
                 .Include(a => a.locationActivities)
                 .ThenInclude(la => la.Location)
                 .FirstOrDefaultAsync(a => a.ActivityId == addActivityToCartDTO.ActivityId);
 
-            // التحقق من أن النشاط موجود
             if (activity == null)
             {
                 return NotFound(new { StatusCode = 404, Message = "Activity not found." });
             }
 
-            // التحقق من وجود مواقع مرتبطة بالنشاط
             var locationActivity = activity.locationActivities.FirstOrDefault();
             if (locationActivity == null || locationActivity.Location == null)
             {
@@ -75,7 +69,6 @@ namespace Tourism_project.Controllers.Home
             int locationId = locationActivity.Location.Id;
             var location = activity.locationActivities.FirstOrDefault()?.Location;
 
-            // إنشاء كائن جديد من AddActivityToCart
             var addActivityToCart = new AddActivityToCart
             {
                 UserId = addActivityToCartDTO.UserId,
@@ -84,15 +77,13 @@ namespace Tourism_project.Controllers.Home
                 ActivityPrice = (decimal)activity.Price,
                 ActivityImageUrl = activity.ImageUrl,
                 LocationId = location.Id,
-                NumberOfGuests = addActivityToCartDTO.NumberOfGuests, // استخدام عدد الضيوف
+                NumberOfGuests = addActivityToCartDTO.NumberOfGuests,
                 AddedAt = DateTime.Now
             };
 
-            // إضافة النشاط إلى السلة
             _context.AddActivityToCarts.Add(addActivityToCart);
             await _context.SaveChangesAsync();
 
-            // الاستجابة مع التفاصيل
             return Ok(new
             {
                 StatusCode = 200,
@@ -106,7 +97,7 @@ namespace Tourism_project.Controllers.Home
                     addActivityToCart.ActivityPrice,
                     addActivityToCart.ActivityImageUrl,
                     LocationName = locationName,
-                    addActivityToCart.NumberOfGuests, // عرض عدد الضيوف
+                    addActivityToCart.NumberOfGuests, 
                     addActivityToCart.AddedAt
                 }
             });
@@ -114,9 +105,7 @@ namespace Tourism_project.Controllers.Home
 
         #endregion
 
-
-
-        #region
+        #region EndPoint_RemoveFromCart
 
         [HttpDelete("remove-from-cart/{userId}/{activityId}")]
         public async Task<IActionResult> RemoveFromCart(int userId, int activityId)
@@ -169,14 +158,14 @@ namespace Tourism_project.Controllers.Home
 
         #endregion
 
-        #region
+        #region EndPoint_GetCart
 
         [HttpGet("cart/{userId}")]
         public async Task<IActionResult> GetCart(int userId)
         {
             try
             {
-                // تحقق من أن المستخدم موجود
+              
                 var userExists = await _context.users.AnyAsync(u => u.TouristId == userId);
                 if (!userExists)
                 {
@@ -198,7 +187,7 @@ namespace Tourism_project.Controllers.Home
                         ActivityName = x.Activity.Name,
                         Image = x.Activity.ImageUrl,
                         PricePerPerson = x.Activity.Price,
-                        PeopleCount = x.NumberOfGuests, // ← تأكد من وجود هذا الحقل
+                        PeopleCount = x.NumberOfGuests, 
                         TotalForThisActivity = x.NumberOfGuests * x.Activity.Price,
                         LocationNames = x.Activity.locationActivities
                             .Select(la => la.Location.Name)
@@ -215,8 +204,6 @@ namespace Tourism_project.Controllers.Home
                         Data = cartItems
                     });
                 }
-
-                // حساب السعر الإجمالي لكل الأنشطة
                 var totalCartPrice = cartItems.Sum(item => item.TotalForThisActivity);
 
                 return Ok(new

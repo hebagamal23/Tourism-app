@@ -8,9 +8,6 @@
             public string ImageUrl { get; set; }
             public string Description { get; set; }
 
-
-
-        // تغيير النوع من TourismTypeDto إلى tourismTypeIDName
         public tourismTypeIDName TourismType { get; set; }
 
     }

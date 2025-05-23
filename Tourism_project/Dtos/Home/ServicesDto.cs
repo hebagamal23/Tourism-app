@@ -4,9 +4,9 @@
     {
         public int ServiceId { get; set; }
         public string Name { get; set; }
-        public string? IconName { get; set; }     // اسم الأيقونة (مثلاً: "wifi")
+        public string? IconName { get; set; }     
 
-        public string? IconType { get; set; }     // نوع الأيقونة (مثلاً: "material" أو "fontawesome")
+        public string? IconType { get; set; }     
 
 
     }

@@ -34,7 +34,7 @@ namespace Tourism_project.Controllers.Home
 
             try
             {
-                // 1. التحقق من وجود المستخدم
+                
                 var user = await dbContext.users.FindAsync(dto.UserId);
                 if (user == null)
                 {
@@ -45,7 +45,6 @@ namespace Tourism_project.Controllers.Home
                     });
                 }
 
-                // 2. التحقق من العنصر
                 bool itemExists = false;
 
                 switch (dto.ItemType)
@@ -79,7 +78,6 @@ namespace Tourism_project.Controllers.Home
                     });
                 }
 
-                // 3. التحقق من عدم التكرار
                 if (await dbContext.Favorites.AnyAsync(f =>
                     f.UserId == dto.UserId &&
                     f.ItemId == dto.ItemId &&
@@ -92,7 +90,6 @@ namespace Tourism_project.Controllers.Home
                     });
                 }
 
-                // 4. إنشاء المفضلة
                 var favorite = new Favorite
                 {
                     UserId = dto.UserId,
@@ -169,7 +166,7 @@ namespace Tourism_project.Controllers.Home
         [HttpGet("user-favorites/{userId}")]
         public async Task<IActionResult> GetUserFavorites(int userId)
         {
-            // ✅ التحقق مما إذا كان المستخدم موجودًا
+           
             bool userExists = await dbContext.users.AnyAsync(u => u.TouristId == userId);
             if (!userExists)
             {
@@ -180,7 +177,6 @@ namespace Tourism_project.Controllers.Home
                 });
             }
 
-            // ✅ جلب المفضلات الخاصة بالمستخدم
             var favorites = await dbContext.Favorites
                 .Where(f => f.UserId == userId)
                 .ToListAsync();
@@ -195,13 +191,13 @@ namespace Tourism_project.Controllers.Home
                 });
             }
 
-            // ✅ تصنيف المفضلات حسب النوع
+           
             var hotelIds = favorites.Where(f => f.ItemType == "Hotel").Select(f => f.ItemId).ToList();
             var activityIds = favorites.Where(f => f.ItemType == "Activity").Select(f => f.ItemId).ToList();
             var locationIds = favorites.Where(f => f.ItemType == "Location").Select(f => f.ItemId).ToList();
             var tourismTypeIds = favorites.Where(f => f.ItemType == "TourismType").Select(f => f.ItemId).ToList();
 
-            // ✅ جلب تفاصيل العناصر المطلوبة لكل نوع
+           
             var hotels = await dbContext.Hotels
                 .Where(h => hotelIds.Contains(h.HotelId))
                 .ToDictionaryAsync(h => h.HotelId);
@@ -218,24 +214,23 @@ namespace Tourism_project.Controllers.Home
                 .Where(t => tourismTypeIds.Contains(t.Id))
                 .ToDictionaryAsync(t => t.Id);
 
-            // ✅ جلب الصور المرتبطة بالفنادق
+            
             var hotelImages = await dbContext.Media
                 .Where(m => hotelIds.Contains(m.HotelId))
                 .GroupBy(m => m.HotelId)
                 .Select(g => new
                 {
                     HotelId = g.Key,
-                    ImageUrl = g.FirstOrDefault().MediaUrl // خذ أول صورة فقط لكل فندق
+                    ImageUrl = g.FirstOrDefault().MediaUrl 
                 })
                 .ToDictionaryAsync(g => g.HotelId);
 
-            // ✅ تشكيل قائمة المفضلات
             var favoriteItems = favorites.Select(f => new
             {
                 f.FavoriteId,
                 f.ItemId,
                 f.ItemType,
-                IsFavorite = true, // ثابت
+                IsFavorite = true, 
                 f.AddedAt,
                 ItemDetails = f.ItemType switch
                 {

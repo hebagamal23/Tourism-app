@@ -21,10 +21,6 @@ namespace Tourism_project.Controllers.Home
         }
 
 
-
-
-      
-
         [HttpGet("room-bookings/{userId}")]
         public async Task<ActionResult> GetRoomBookings(int userId)
         {

@@ -5,7 +5,7 @@ namespace Tourism_project.Models
     public class Hotel
     {
         [Key]
-        public int HotelId { get; set; }  // المفتاح الأساسي
+        public int HotelId { get; set; } 
         public string Name { get; set; }
         public string Address { get; set; }
         public string? PhoneNumber { get; set; }
@@ -17,7 +17,7 @@ namespace Tourism_project.Models
         public string Description { get; set; }
         public DateTime EstablishedDate { get; set; }
 
-        public decimal PricePerNight { get; set; } // سعر الليلة
+        public decimal PricePerNight { get; set; } 
         public int MaxRooms { get; set; }
         public Location Location { get; set; }
         public ICollection<Room> Rooms { get; set; }
@@ -28,7 +28,7 @@ namespace Tourism_project.Models
 
 
         // إضافة العلاقة مع HotelRestriction
-        public ICollection<HotelRestriction> Restrictions { get; set; }  // إضافة هذا السطر
+        public ICollection<HotelRestriction> Restrictions { get; set; }  
 
     }
 }

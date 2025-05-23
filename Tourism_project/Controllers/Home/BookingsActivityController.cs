@@ -24,7 +24,7 @@ namespace Tourism_project.Controllers.Home
         {
             try
             {
-                // جلب المستخدم بناءً على الـ userId المرسل
+                
                 var user = await _context.users
                     .Include(u => u.Bookings)
                         .ThenInclude(b => b.Room)
@@ -35,18 +35,16 @@ namespace Tourism_project.Controllers.Home
                 if (user == null)
                     return NotFound(new { StatusCode = 404, Message = "User not found." });
 
-                // جلب الأنشطة الموجودة في سلة المشتريات للمستخدم
                 var cartActivities = await _context.AddActivityToCarts
                     .Include(a => a.Activity)
                         .ThenInclude(ac => ac.locationActivities)
                     .Where(x => x.UserId == userId)
                     .ToListAsync();
 
-                // إذا كانت سلة المشتريات فارغة، نرجع رسالة خطأ
+ 
                 if (!cartActivities.Any())
                     return BadRequest(new { StatusCode = 400, Message = "No activities in the cart." });
 
-                // محاولة العثور على حجز غرفة مؤكد للمستخدم
                 var confirmedRoomBooking = user.Bookings
                     .FirstOrDefault(b => b.RoomId != null && b.Status == Booking.BookingStatus.Confirmed);
 
@@ -54,14 +52,12 @@ namespace Tourism_project.Controllers.Home
                 DateTime? endDate = null;
                 int? roomLocationId = null;
 
-                // إذا كان هناك حجز غرفة مؤكد، نعين التواريخ ونحقق في الموقع
                 if (confirmedRoomBooking != null)
                 {
                     startDate = confirmedRoomBooking.StartDate;
                     endDate = confirmedRoomBooking.EndDate;
                     roomLocationId = confirmedRoomBooking.Room.Hotel.LocationId;
 
-                    // التأكد من أن الأنشطة في نفس الموقع كما في الحجز
                     var mismatchedActivities = cartActivities
                         .Where(a => !a.Activity.locationActivities.Any(la => la.LocationId == roomLocationId))
                         .ToList();
@@ -71,47 +67,45 @@ namespace Tourism_project.Controllers.Home
                 }
                 else
                 {
-                    // إذا لم يكن هناك حجز غرفة مؤكد، نسمح للمستخدم بالمتابعة بدون غرفة
-                    startDate = DateTime.Now; // بداية افتراضية (مثلاً اليوم الحالي)
+                    
+                    startDate = DateTime.Now; 
                  
                 }
 
-                // 🟡 التحقق من الحجز المعلق
                 var hasPendingBooking = user.Bookings.Any(b => b.Status == Booking.BookingStatus.Pending);
                 if (hasPendingBooking)
                 {
                     return BadRequest(new { StatusCode = 400, Message = "You already have a pending booking. Please complete or cancel it before creating a new one." });
                 } 
 
-                // إنشاء حجز جديد بناءً على الأنشطة في سلة المشتريات
+             
                 var newBooking = new Booking
                 {
                     TouristId = userId,
-                    RoomId = null, // ليس لدينا غرفة هنا
-                    PaymentMethodId = 1, // تحديد طريقة الدفع الافتراضية
-                    StartDate = startDate ?? DateTime.MinValue, // استخدام التاريخ المحدد أو الحد الأدنى للتاريخ
-                    EndDate = endDate ?? DateTime.MinValue, // استخدام التاريخ المحدد أو الحد الأدنى للتاريخ
-                    TotalPrice = cartActivities.Sum(a => a.NumberOfGuests * (decimal)a.Activity.Price), // إجمالي السعر بناءً على الأنشطة وعدد الضيوف
-                    NumberOfGuests = cartActivities.Sum(a => a.NumberOfGuests), // إجمالي عدد الضيوف
-                    Status = Booking.BookingStatus.Pending // حالة الحجز مبدئية كـ "معلق"
+                    RoomId = null,
+                    PaymentMethodId = 1,
+                    StartDate = startDate ?? DateTime.MinValue, 
+                    EndDate = endDate ?? DateTime.MinValue,
+                    TotalPrice = cartActivities.Sum(a => a.NumberOfGuests * (decimal)a.Activity.Price),
+                    NumberOfGuests = cartActivities.Sum(a => a.NumberOfGuests), 
+                    Status = Booking.BookingStatus.Pending 
                 };
 
-                // إضافة الحجز الجديد إلى قاعدة البيانات
+             
                 _context.bookings.Add(newBooking);
                 await _context.SaveChangesAsync();
 
-                // إرجاع استجابة تفيد بأنه تم إعداد الحجز
                 return Ok(new
                 {
                     StatusCode = 200,
                     Message = "Activity booking prepared. Proceed to payment.",
                     BookingId = newBooking.BookingId,
-                    HasRoom = confirmedRoomBooking != null // نُعلم المستخدم إذا كان لديه غرفة مؤكدَّة أم لا
+                    HasRoom = confirmedRoomBooking != null 
+
                 });
             }
             catch (Exception ex)
             {
-                // في حالة حدوث خطأ، نرجع رسالة خطأ
                 return StatusCode(500, new { StatusCode = 500, Message = "Error preparing booking", Error = ex.Message });
             }
         }
@@ -124,7 +118,7 @@ namespace Tourism_project.Controllers.Home
         {
             try
             {
-                // جلب المستخدم بناءً على الـ userId المرسل
+              
                 var user = await _context.users
                     .Include(u => u.Bookings)
                         .ThenInclude(b => b.Room)
@@ -135,24 +129,20 @@ namespace Tourism_project.Controllers.Home
                 if (user == null)
                     return NotFound(new { StatusCode = 404, Message = "User not found." });
 
-                // جلب الأنشطة الموجودة في سلة المشتريات للمستخدم
                 var cartActivities = await _context.AddActivityToCarts
                     .Include(a => a.Activity)
                         .ThenInclude(ac => ac.locationActivities)
                     .Where(x => x.UserId == userId)
                     .ToListAsync();
 
-                // إذا كانت سلة المشتريات فارغة، نرجع رسالة خطأ
                 if (!cartActivities.Any())
                     return BadRequest(new { StatusCode = 400, Message = "No activities in the cart." });
 
-                // محاولة العثور على حجز غرفة مؤكد للمستخدم
-                var confirmedRoomBooking = user.Bookings
+                  var confirmedRoomBooking = user.Bookings
                     .FirstOrDefault(b => b.RoomId != null && b.Status == Booking.BookingStatus.Confirmed);
 
                 if (confirmedRoomBooking != null)
                 {
-                    // إذا كان يوجد حجز غرفة مؤكد، نعرض الأنشطة مع التواريخ الخاصة بالحجز
                     var activitiesWithDates = cartActivities.Select(a => new
                     {
                         ActivityId = a.ActivityId,
@@ -173,7 +163,6 @@ namespace Tourism_project.Controllers.Home
                 }
                 else
                 {
-                    // إذا لم يكن هناك حجز غرفة مؤكد، نعرض الأنشطة بدون تواريخ
                     var activitiesWithoutDates = cartActivities.Select(a => new
                     {
                         ActivityId = a.ActivityId,
@@ -193,7 +182,7 @@ namespace Tourism_project.Controllers.Home
             }
             catch (Exception ex)
             {
-                // في حالة حدوث خطأ، نرجع رسالة خطأ
+
                 return StatusCode(500, new { StatusCode = 500, Message = "Error retrieving activities", Error = ex.Message });
             }
         }
@@ -205,12 +194,11 @@ namespace Tourism_project.Controllers.Home
         {
             try
             {
-                // التحقق من وجود المستخدم
+                
                 var user = await _context.users.FirstOrDefaultAsync(u => u.TouristId == userId);
                 if (user == null)
                     return NotFound(new { StatusCode = 404, Message = "User not found." });
 
-                // جلب الأنشطة في سلة التسوق
                 var cartItems = await _context.AddActivityToCarts
                     .Where(c => c.UserId == userId)
                     .ToListAsync();
@@ -224,7 +212,6 @@ namespace Tourism_project.Controllers.Home
                     });
                 }
 
-                // التحقق من وجود حجز قيد الانتظار
                 var existingBooking = await _context.bookings
                     .Include(b => b.Payment)
                     .FirstOrDefaultAsync(b => b.TouristId == userId && b.Status == Booking.BookingStatus.Pending);
@@ -238,7 +225,6 @@ namespace Tourism_project.Controllers.Home
                     });
                 }
 
-                // التحقق أن كل نشاط في السلة موجود في الطلب
                 var cartActivityIds = cartItems.Select(c => c.ActivityId).Distinct().ToList();
                 var requestActivityIds = activityBookings.Select(ab => ab.ActivityId).Distinct().ToList();
 
@@ -253,7 +239,6 @@ namespace Tourism_project.Controllers.Home
                 } 
 
 
-                // تحديث حالة الحجز إلى "مؤكد"
                 existingBooking.Status = Booking.BookingStatus.Confirmed;
                 existingBooking.StartDate = activityBookings.Min(ab => ab.StartDate);
                 existingBooking.EndDate = activityBookings.Max(ab => ab.StartDate);
@@ -261,8 +246,6 @@ namespace Tourism_project.Controllers.Home
                 existingBooking.NumberOfGuests = activityBookings.Sum(ab => ab.NumberOfGuests);
                 existingBooking.PaymentTime = DateTime.UtcNow;
 
-                // إضافة الأنشطة المحجوزة إلى الحجز مع التحقق من التواريخ
-                // جلب حجز الغرفة المؤكد إن وجد
                 var confirmedRoomBooking = await _context.bookings
                     .FirstOrDefaultAsync(b =>
                         b.TouristId == userId &&
@@ -270,10 +253,10 @@ namespace Tourism_project.Controllers.Home
                         b.RoomId != null
                     );
 
-                // لكل نشاط في الـ DTO
+              
                 foreach (var ab in activityBookings)
                 {
-                    // أولًا: تحقق أن المستخدم فعلاً أضاف هذا النشاط للسلة
+                   
                     var cartItem = cartItems.FirstOrDefault(c => c.ActivityId == ab.ActivityId);
                     if (cartItem == null)
                         return BadRequest(new
@@ -282,7 +265,7 @@ namespace Tourism_project.Controllers.Home
                             Message = $"Activity with ID {ab.ActivityId} was not added to the cart."
                         });
 
-                    // تحقق من تطابق السعر
+                 
                     if (cartItem.ActivityPrice != ab.ActivityPrice)
                     {
                         return BadRequest(new
@@ -292,7 +275,6 @@ namespace Tourism_project.Controllers.Home
                         });
                     }
 
-                    // تحقق من تطابق عدد الضيوف
                     if (cartItem.NumberOfGuests != ab.NumberOfGuests)
                     {
                         return BadRequest(new
@@ -302,7 +284,6 @@ namespace Tourism_project.Controllers.Home
                         });
                     }
 
-                    // تحقق من تطابق اسم النشاط في السلة وفي الـ DTO
                     if (cartItem.ActivityName.Trim().ToLower() != ab.ActivityName.Trim().ToLower())
                     {
                         return BadRequest(new
@@ -312,11 +293,9 @@ namespace Tourism_project.Controllers.Home
                         });
                     }
 
-
-                    // خذ التاريخ من الـ DTO
                     var requestedDate = ab.StartDate.Date;
 
-                    // لو في حجز غرفة، تحقق من الفترة
+                   
                     if (confirmedRoomBooking != null)
                     {
                         if (requestedDate < confirmedRoomBooking.StartDate.Date ||
@@ -330,7 +309,7 @@ namespace Tourism_project.Controllers.Home
                         }
                     }
 
-                    // احفظ النشاط مع التاريخ النهائي
+              
                     var bookingActivity = new BookingActivity
                     {
                         BookingId = existingBooking.BookingId,
@@ -341,10 +320,10 @@ namespace Tourism_project.Controllers.Home
                     await _context.BookingActivities.AddAsync(bookingActivity);
                 }
 
-                // تحديث الدفع
+               
                 var existingPayment = existingBooking.Payment;
 
-                // إذا لم يكن هناك سجل دفع، نضيف سجلاً جديدًا
+               
                 if (existingPayment == null)
                 {
                     var newPayment = new Payment
@@ -352,21 +331,20 @@ namespace Tourism_project.Controllers.Home
                         BookingId = existingBooking.BookingId,
                         PaymentTime = DateTime.UtcNow,
                         Amount = existingBooking.TotalPrice,
-                        PaymentMethodId = existingBooking.PaymentMethodId, // تأكد من أن PaymentMethodId موجود
-                        Status = "Completed" // حالة الدفع هي مكتملة بعد تأكيد الحجز
+                        PaymentMethodId = existingBooking.PaymentMethodId, 
+                        Status = "Completed" 
                     };
                     await _context.Payments.AddAsync(newPayment);
                 }
                 else
                 {
-                    // إذا كان هناك سجل دفع، نقوم بتحديثه
                     existingPayment.Status = "Completed";
                     existingPayment.PaymentTime = DateTime.UtcNow;
                     existingPayment.Amount = existingBooking.TotalPrice;
                     _context.Payments.Update(existingPayment);
                 }
 
-                // إفراغ سلة التسوق وحفظ التغييرات
+              
                 _context.AddActivityToCarts.RemoveRange(cartItems);
                 _context.bookings.Update(existingBooking);
                 await _context.SaveChangesAsync();

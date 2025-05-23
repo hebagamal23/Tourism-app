@@ -24,7 +24,6 @@ namespace Tourism_project.Controllers.Home
         {
             try
             {
-
                 var activities = await dbContext.Activities
                     .Select(a => new ActivityDto
                     {
@@ -81,7 +80,6 @@ namespace Tourism_project.Controllers.Home
                 return StatusCode(500, new { statusCode = 500, message = "An error occurred while fetching the activity.", error = ex.Message });
             }
         }
-
         #endregion
 
         #region EndPoint_UpdateActivity

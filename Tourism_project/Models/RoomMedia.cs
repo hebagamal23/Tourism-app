@@ -6,19 +6,19 @@ namespace Tourism_project.Models
 {
     public class RoomMedia
     {
-        public int MediaId { get; set; } // المفتاح الأساسي
+        public int MediaId { get; set; } 
         [ForeignKey("Room")]
-        public int RoomId { get; set; } // العلاقة مع الغرفة
+        public int RoomId { get; set; } 
         public Room Room { get; set; }
 
         [Required]
-        public string MediaType { get; set; } // نوع الوسائط (صورة أو فيديو)
+        public string MediaType { get; set; } 
 
         [Required]
         [StringLength(255)]
-        public string MediaUrl { get; set; } // رابط الصورة أو الفيديو
+        public string MediaUrl { get; set; } 
 
-        public DateTime? UploadedAt { get; set; } = DateTime.Now; // وقت التحميل
+        public DateTime? UploadedAt { get; set; } = DateTime.Now; 
 
     }
    

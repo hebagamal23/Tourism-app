@@ -3,7 +3,7 @@ using Tourism_project.Models;
 
 namespace Tourism_project.Services
 {
-    public class BookingStatusUpdateService: BackgroundService
+    public class BookingStatusUpdateService : BackgroundService
     {
         private readonly IServiceScopeFactory _serviceScopeFactory;
         private readonly ILogger<BookingStatusUpdateService> _logger;
@@ -19,11 +19,10 @@ namespace Tourism_project.Services
             while (!stoppingToken.IsCancellationRequested)
             {
                 await UpdateExpiredBookings();
-
-                // انتظار فترة معينة (على سبيل المثال 24 ساعة) بين كل تحقق
                 await Task.Delay(TimeSpan.FromHours(2), stoppingToken);
             }
         }
+
         private async Task UpdateExpiredBookings()
         {
             try
@@ -32,9 +31,8 @@ namespace Tourism_project.Services
                 {
                     var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
 
-                    // جلب جميع الحجوزات التي انتهت
                     var expiredBookings = await dbContext.bookings
-                        .Include(b => b.Room)  // تحميل الغرف المرتبطة بالحجوزات
+                        .Include(b => b.Room)
                         .Where(b => b.EndDate <= DateTime.Now && b.Status != Booking.BookingStatus.Expired)
                         .ToListAsync();
 
@@ -42,29 +40,25 @@ namespace Tourism_project.Services
                     {
                         foreach (var booking in expiredBookings)
                         {
-                            // تحديث حالة الحجز إلى "منتهية"
                             booking.Status = Booking.BookingStatus.Expired;
 
-                            // تحديث الغرفة إلى "متاحة" إذا كانت غير متاحة
                             if (booking.Room != null && booking.Room.IsAvailable == false)
                             {
                                 booking.Room.IsAvailable = true;
-                                _logger.LogInformation($"تم تحديث الغرفة {booking.Room.Id} إلى متاحة.");
+                                _logger.LogInformation($"Room {booking.Room.Id} is now available.");
                             }
 
-                            _logger.LogInformation($"تم تحديث حالة الحجز {booking.BookingId} إلى Expired.");
+                            _logger.LogInformation($"Booking {booking.BookingId} status updated to Expired.");
                         }
 
-                        // حفظ التغييرات مرة واحدة بعد تحديث كل الحجوزات
                         await dbContext.SaveChangesAsync();
                     }
                 }
             }
             catch (Exception ex)
             {
-                _logger.LogError($"⚠️ خطأ أثناء تحديث الحجوزات المنتهية: {ex.Message}");
+                _logger.LogError($"Error while updating expired bookings: {ex.Message}");
             }
         }
-
     }
 }

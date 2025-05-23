@@ -11,12 +11,12 @@ namespace Tourism_project.Models
         public float Price { get; set; }
         public int DurationHours { get; set; }
 
-        public string? IconName { get; set; }     // اسم الأيقونة (مثلاً: "wifi")
+        public string? IconName { get; set; }     
 
-        public string? IconType { get; set; }     // نوع الأيقونة (مثلاً: "material" أو "fontawesome")
+        public string? IconType { get; set; }     
 
         public ICollection<HotelService> HotelServices { get; set; }
-        // علاقة Many-to-Many مع الغرف
+        
     public ICollection<RoomService> RoomServices { get; set; }
     }
 }
