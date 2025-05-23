@@ -47,32 +47,24 @@ namespace Tourism_project.Controllers.Authentication
 
         #endregion
 
-
         #region Function-GenerateOtp
-        // طريقة لإنشاء OTP
         private string GenerateOtp()
         {
             Random random = new Random();
-            // إنشاء OTP مكون من 6 أرقام عشوائية
             return random.Next(100000, 999999).ToString();
 
         }
         #endregion
 
-
-
         #region EndPoint_SendVerificationCode
-
         [HttpPost("SendVerificationCode")]
         public async Task<IActionResult> SendVerificationCode(TourismRegistration tourismRegistrationDto)
         {
-            // تحقق من البريد الإلكتروني
             if (!new EmailAddressAttribute().IsValid(tourismRegistrationDto.Email))
             {
                 return BadRequest(new { statusCode = 400, message = "The email address is not valid." });
             }
 
-            // تحقق من الباسورد
             var password = tourismRegistrationDto.PassWord;
 
             if (string.IsNullOrWhiteSpace(password) || password.Length < 6 || password.Length > 100)
@@ -95,24 +87,20 @@ namespace Tourism_project.Controllers.Authentication
                 return BadRequest(new { statusCode = 400, message = "Password must contain at least one special character." });
             }
 
-            // تحقق لو البريد الإلكتروني موجودًا مسبقًا
             var existingUser = await userManager.FindByEmailAsync(tourismRegistrationDto.Email);
             if (existingUser != null)
             {
                 return BadRequest(new { statusCode = 400, message = "This email is already registered." });
             }
 
-            // تحقق لو الباسبورت موجودًا مسبقًا
             var existingPass = await userManager.FindByEmailAsync(tourismRegistrationDto.PassPortNumber.ToString());
             if (existingPass != null)
             {
                 return BadRequest(new { statusCode = 400, message = "This Passport is already Exist." });
             }
 
-            // إنشاء OTP (One-Time Password) عشوائي
             var otp = GenerateOtp();
 
-            // تخزين بيانات المستخدم في الجدول المؤقت
             var tempUser = new TemporaryTourismRegistration
             {
                 FullName = tourismRegistrationDto.FullName,
@@ -125,12 +113,11 @@ namespace Tourism_project.Controllers.Authentication
             await dbContext.SaveChangesAsync();
             Console.WriteLine($"Temporary user saved with ID: {tempUser.Id}");
 
-            // تخزين OTP في الجدول المؤقت وربطه بالمستخدم
             var tempOtp = new TemporaryOtp
             {
                 OtpCode = otp,
                 ExpiryDate = DateTime.UtcNow.AddMinutes(10),
-                TemporaryUserId = tempUser.Id, // الربط مع المستخدم المؤقت
+                TemporaryUserId = tempUser.Id, 
                 Email = tourismRegistrationDto.Email
             };
 
@@ -140,7 +127,6 @@ namespace Tourism_project.Controllers.Authentication
 
             Console.WriteLine($"OTP saved for email: {tourismRegistrationDto.Email}, OTP: {otp}");
 
-            // إرسال كود التحقق عبر البريد الإلكتروني
             string textBody = $"Dear {tourismRegistrationDto.FullName},\n\nThank you for registering. Your verification code is:\n\n{otp}\n\nPlease use this code to complete your registration. The code is valid for 10 minutes.\n\nBest regards,\nTourism Team.";
 
             string htmlBody = $@"
@@ -159,7 +145,6 @@ namespace Tourism_project.Controllers.Authentication
 
             return Ok(new { message = "Verification code sent successfully. Please check your email." });
         }
-
         #endregion
 
         #region EndPoint_VerifyCodeAndRegister
@@ -167,7 +152,6 @@ namespace Tourism_project.Controllers.Authentication
         [HttpPost("VerifyCodeAndRegister")]
         public async Task<IActionResult> VerifyCodeAndRegister(string verificationCode)
         {
-            // التحقق من كود OTP من جدول TemporaryOtp
             var otpEntry = await dbContext.TemporaryOtp
                 .FirstOrDefaultAsync(o => o.OtpCode == verificationCode);
 
@@ -176,8 +160,6 @@ namespace Tourism_project.Controllers.Authentication
                 return BadRequest(new { statusCode = 400, message = "Invalid or expired verification code." });
             }
 
-
-            // استرجاع بيانات المستخدم من جدول TemporaryTourismRegistrations باستخدام TemporaryUserId
             var userEntry = await dbContext.TemporaryTourismRegistrations
                 .FirstOrDefaultAsync(u => u.Id == otpEntry.TemporaryUserId);
 
@@ -186,7 +168,6 @@ namespace Tourism_project.Controllers.Authentication
                 return BadRequest(new { statusCode = 400, message = "Registration data is missing." });
             }
 
-            // 1. إنشاء كائن من ApplicationTourism (المستخدم الذي سيتم إضافته إلى AspNetUsers)
             var applicationTourismUser = new ApplicationTourism
             {
                 UserName = userEntry.FullName,
@@ -194,13 +175,10 @@ namespace Tourism_project.Controllers.Authentication
                 EmailConfirmed = true
             };
 
-            // 2. إضافة السائح إلى AspNetUsers باستخدام UserManager
-
             var result = await userManager.CreateAsync(applicationTourismUser, userEntry.Password);
 
             if (!result.Succeeded)
             {
-                // إضافة طباعة للأخطاء للتحقق من سبب الفشل
                 foreach (var error in result.Errors)
                 {
                     Console.WriteLine($"Error: {error.Description}");
@@ -208,23 +186,20 @@ namespace Tourism_project.Controllers.Authentication
                 return BadRequest(new { statusCode = 400, message = "Failed to create user.", errors = result.Errors });
             }
             
-
-            // تسجيل السائح في قاعدة البيانات
             var insertTourism = new Tourism
             {
                 PassportNumber = userEntry.PassportNumber,
                 AspNetUserId = applicationTourismUser.Id,
                 Poster = "posters/DefualtProfile.jpeg"
             };
-            // التحقق من وجود الدور "Tourist"
+           
             var roleExist = await _roleManager.RoleExistsAsync("Tourist");
             if (!roleExist)
             {
-                // إذا لم يكن الدور موجودًا، قم بإنشائه
+
                 await _roleManager.CreateAsync(new IdentityRole("Tourist"));
             }
 
-            // إضافة الدور "Tourist" للمستخدم بعد إنشائه
             var roleResult = await userManager.AddToRoleAsync(applicationTourismUser, "Tourist");
 
             if (!roleResult.Succeeded)
@@ -236,31 +211,15 @@ namespace Tourism_project.Controllers.Authentication
             dbContext.users.Add(insertTourism);
             await dbContext.SaveChangesAsync();
 
-            //// حذف البيانات من الجداول المؤقتة بعد التسجيل
-            //try
-            //{
-            //    dbContext.TemporaryOtp.Remove(otpEntry);
-            //    dbContext.TemporaryTourismRegistrations.Remove(userEntry);
-            //    await dbContext.SaveChangesAsync();
-            //}
-            //catch (Exception ex)
-            //{
-            //    Console.WriteLine($"Error while removing data: {ex.Message}");
-            //    return BadRequest(new { statusCode = 400, message = "An error occurred while deleting temporary data." });
-            //}
-
             return Ok(new { message = $"Welcome, {applicationTourismUser.UserName}! You have registered successfully." });
         }
-
         #endregion
-
 
         #region EndPoint_ResendVerificationCode
 
         [HttpPost("ResendVerificationCode")]
         public async Task<IActionResult> ResendVerificationCode([FromBody] ResendVerificationCodeRequestDto requestDto)
         {
-            // تحقق من أن البريد الإلكتروني مسجل في قاعدة البيانات المؤقتة
             var tempUser = await dbContext.TemporaryTourismRegistrations
                 .FirstOrDefaultAsync(u => u.Email == requestDto.Email);
 
@@ -269,49 +228,41 @@ namespace Tourism_project.Controllers.Authentication
                 return BadRequest(new { statusCode = 400, message = "No registration found for this email." });
             }
 
-            // توليد كود تحقق جديد
-            var otp = GenerateOtp(); // توليد كود تحقق جديد
+            var otp = GenerateOtp(); 
 
-            // تحديث أو إنشاء سجل جديد لكود التحقق
             var existingOtp = await dbContext.TemporaryOtp
                 .FirstOrDefaultAsync(o => o.Email == requestDto.Email);
 
             if (existingOtp != null)
             {
-                // إذا كان هناك كود سابق، نقوم بتحديثه
                 existingOtp.OtpCode = otp;
-                existingOtp.ExpiryDate = DateTime.UtcNow.AddMinutes(10); // تمديد صلاحية الكود
+                existingOtp.ExpiryDate = DateTime.UtcNow.AddMinutes(10); 
                 dbContext.TemporaryOtp.Update(existingOtp);
             }
             else
             {
-                // إذا لم يكن هناك كود سابق، نضيف واحدًا جديدًا
                 var newOtp = new TemporaryOtp
                 {
                     OtpCode = otp,
-                    ExpiryDate = DateTime.UtcNow.AddMinutes(10), // تعيين مدة صلاحية جديدة
+                    ExpiryDate = DateTime.UtcNow.AddMinutes(10), 
                     TemporaryUserId = tempUser.Id,
                     Email = requestDto.Email
                 };
                 dbContext.TemporaryOtp.Add(newOtp);
             }
-
             await dbContext.SaveChangesAsync();
 
-            // إرسال الكود عبر البريد الإلكتروني
             string textBody = $"Dear {tempUser.FullName},\n\nYour new verification code is: {otp}\n\nThe code is valid for 10 minutes.";
             string htmlBody = $@"
-        <p>Dear {tempUser.FullName},</p>
-        <p>Your new verification code is: <strong>{otp}</strong></p>
-        <p>The code is valid for 10 minutes.</p>";
+                                <p>Dear {tempUser.FullName},</p>
+                                <p>Your new verification code is: <strong>{otp}</strong></p>
+                                <p>The code is valid for 10 minutes.</p>";
 
             await _emailServices.SendVerificationEmail(tempUser.Email, "Your New Verification Code", textBody, htmlBody);
 
             return Ok(new { message = "New verification code sent successfully." });
         }
-
         #endregion
-
 
         #region EndPoint_Login
         [HttpPost("login")]
@@ -326,7 +277,6 @@ namespace Tourism_project.Controllers.Authentication
                 });
             }
 
-            // البحث عن المستخدم باستخدام البريد الإلكتروني
             var user = await userManager.FindByEmailAsync(userDto.UserName);
             if (user == null)
             {
@@ -337,7 +287,6 @@ namespace Tourism_project.Controllers.Authentication
                 });
             }
 
-            // التحقق من كلمة المرور
             bool isPasswordValid = await userManager.CheckPasswordAsync(user, userDto.Password);
             if (!isPasswordValid)
             {
@@ -348,11 +297,14 @@ namespace Tourism_project.Controllers.Authentication
                 });
             }
 
-            // إنشاء الـ Claims
+            var tourist = dbContext.users.FirstOrDefault(t => t.AspNetUserId == user.Id);
+            int touristId = tourist != null ? tourist.TouristId : 0;
+
             var claims = new List<Claim>
                             {
                                 new Claim(ClaimTypes.Name, user.UserName),
-                                new Claim(ClaimTypes.NameIdentifier, user.Id)
+                                new Claim(ClaimTypes.NameIdentifier, user.Id),
+                                new Claim("TouristId", touristId.ToString())
                             };
 
             var roles = await userManager.GetRolesAsync(user);
@@ -361,7 +313,6 @@ namespace Tourism_project.Controllers.Authentication
                 claims.Add(new Claim(ClaimTypes.Role, role));
             }
 
-            // إعداد مفتاح التوقيع
             var secretKey = config["JWT:Secret"];
             if (string.IsNullOrEmpty(secretKey))
             {
@@ -375,16 +326,15 @@ namespace Tourism_project.Controllers.Authentication
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey));
             var signingCredentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
-            // إنشاء التوكن
+       
             var token = new JwtSecurityToken(
                 issuer: config["JWT:ValidIssure"],
                 audience: config["JWT:ValidAudance"],
-                expires: DateTime.UtcNow.AddHours(3), // يفضل استخدام UTC
+                expires: DateTime.UtcNow.AddHours(3), 
                 signingCredentials: signingCredentials,
                 claims: claims
             );
 
-            // إعادة التوكن مع وقت انتهاء الصلاحية
             return Ok(new
             {
                 statusCode = 200,
@@ -393,14 +343,9 @@ namespace Tourism_project.Controllers.Authentication
             });
         }
 
-
         #endregion
 
-
-
         #region EndPoint_forgot-password 
-
-
         [HttpPost("forgot-password")]
         public async Task<IActionResult> ForgotPassword([FromBody] ForgetPasswordDto model)
         {
@@ -475,7 +420,6 @@ namespace Tourism_project.Controllers.Authentication
             }
         }
 
-
         #endregion
 
         #region EndPoint_validate-otp
@@ -505,8 +449,6 @@ namespace Tourism_project.Controllers.Authentication
                     statusCode = 400,
                     message = "OTP has expired."
                 } );
-
-            // تحديث حالة التحقق
             otpRecord.IsVerified = true;
             await dbContext.SaveChangesAsync();
 
@@ -533,13 +475,11 @@ namespace Tourism_project.Controllers.Authentication
                 return BadRequest(new { Message = "Invalid request.", Errors = ModelState });
             }
 
-            // تحقق من أن NewPassword و ConfirmPassword متطابقان
             if (model.NewPassword != model.ConfirmPassword)
             {
                 return BadRequest(new { statusCode = 400, Message = "Passwords do not match." });
             }
 
-            // استرجاع سجل OTP المحقق
             var otpRecord = await dbContext.TemporaryOtp
                 .FirstOrDefaultAsync(o => o.IsVerified == true);
 
@@ -548,17 +488,14 @@ namespace Tourism_project.Controllers.Authentication
                 return BadRequest(new { statusCode = 400, Message = "Unauthorized or expired request." });
             }
 
-            // استرجاع المستخدم بناءً على البريد الإلكتروني
             var user = await userManager.FindByEmailAsync(otpRecord.Email);
             if (user == null)
             {
                 return BadRequest(new { statusCode = 400, Message = "User not found." });
             }
 
-            // إنشاء رمز إعادة تعيين كلمة المرور
             string passwordResetToken = await userManager.GeneratePasswordResetTokenAsync(user);
 
-            // إعادة تعيين كلمة المرور للمستخدم
             var resetResult = await userManager.ResetPasswordAsync(user, passwordResetToken, model.NewPassword);
             if (!resetResult.Succeeded)
             {
@@ -570,7 +507,6 @@ namespace Tourism_project.Controllers.Authentication
                 });
             }
 
-            // إزالة سجل OTP بعد نجاح إعادة تعيين كلمة المرور
             dbContext.TemporaryOtp.Remove(otpRecord);
             await dbContext.SaveChangesAsync();
 

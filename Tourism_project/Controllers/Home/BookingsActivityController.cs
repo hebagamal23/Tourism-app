@@ -160,7 +160,8 @@ namespace Tourism_project.Controllers.Home
                         ActivityPrice = a.Activity.Price,
                         ActivityImageUrl = a.Activity.ImageUrl,
                         ActivityStartDate = confirmedRoomBooking.StartDate,
-                        ActivityEndDate = confirmedRoomBooking.EndDate
+                        ActivityEndDate = confirmedRoomBooking.EndDate,
+                        NumberOfGuests = a.NumberOfGuests
                     });
 
                     return Ok(new

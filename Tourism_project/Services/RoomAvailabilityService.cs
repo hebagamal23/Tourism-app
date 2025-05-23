@@ -56,7 +56,7 @@ namespace Tourism_project.Services
                 }
 
                 // تشغيل الخدمة كل ساعتين
-                await Task.Delay(TimeSpan.FromHours(2), stoppingToken);
+                await Task.Delay(TimeSpan.FromMinutes(1), stoppingToken);
             }
         }
     }

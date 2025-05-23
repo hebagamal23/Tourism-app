@@ -1,0 +1,1080 @@
+[
+  {
+    "ContainingType": "Tourism_project.Controllers.Authentication.AcountController",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/Acount/forgot-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Tourism_project.Dtos.Authentication.ForgetPasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Authentication.AcountController",
+    "Method": "Login",
+    "RelativePath": "api/Acount/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDto",
+        "Type": "Tourism_project.Dtos.Authentication.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Authentication.AcountController",
+    "Method": "ResendVerificationCode",
+    "RelativePath": "api/Acount/ResendVerificationCode",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Tourism_project.Dtos.Authentication.ResendVerificationCodeRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Authentication.AcountController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/Acount/reset-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Tourism_project.Dtos.Authentication.ResetPasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Authentication.AcountController",
+    "Method": "SendVerificationCode",
+    "RelativePath": "api/Acount/SendVerificationCode",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tourismRegistrationDto",
+        "Type": "Tourism_project.Dtos.Authentication.TourismRegistration",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Authentication.AcountController",
+    "Method": "ValidateOtp",
+    "RelativePath": "api/Acount/validate-otp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Tourism_project.Dtos.Authentication.VerifyOtpDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Authentication.AcountController",
+    "Method": "VerifyCodeAndRegister",
+    "RelativePath": "api/Acount/VerifyCodeAndRegister",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "verificationCode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.ActivitysController",
+    "Method": "GetAllActivities",
+    "RelativePath": "api/Activitys/api/activities",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.ActivitysController",
+    "Method": "GetActivityById",
+    "RelativePath": "api/Activitys/api/activities/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.ActivitysController",
+    "Method": "UpdateActivity",
+    "RelativePath": "api/Activitys/api/activities/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "activityDto",
+        "Type": "Tourism_project.Models.ACtivity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.ActivitysController",
+    "Method": "DeleteActivity",
+    "RelativePath": "api/Activitys/api/activities/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.ActivitysController",
+    "Method": "GetActivityDetails",
+    "RelativePath": "api/Activitys/Detials/{activityId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "activityId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.ActivitysController",
+    "Method": "GetActivitiesByLocation",
+    "RelativePath": "api/Activitys/locations/{locationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "locationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.AddToCartController",
+    "Method": "AddToCart",
+    "RelativePath": "api/AddToCart/add-to-cart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addActivityToCartDTO",
+        "Type": "Tourism_project.Dtos.Home.ActivityBookingDateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.AddToCartController",
+    "Method": "GetCart",
+    "RelativePath": "api/AddToCart/cart/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.AddToCartController",
+    "Method": "RemoveFromCart",
+    "RelativePath": "api/AddToCart/remove-from-cart/{userId}/{activityId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "activityId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.BookingController",
+    "Method": "GetRoomBookings",
+    "RelativePath": "api/Booking/room-bookings/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.BookingsActivityController",
+    "Method": "GetActivityBookings",
+    "RelativePath": "api/BookingsActivity/activity-bookings/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.BookingsActivityController",
+    "Method": "ConfirmActivityBooking",
+    "RelativePath": "api/BookingsActivity/confirm-activity-booking",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "activityBookings",
+        "Type": "System.Collections.Generic.List\u00601[[Tourism_project.Dtos.Home.ActivityBookingRequestDTO, Tourism_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.BookingsActivityController",
+    "Method": "GetActivitiesForBooking",
+    "RelativePath": "api/BookingsActivity/get-activities-for-booking",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.BookingsActivityController",
+    "Method": "PrepareActivityBooking",
+    "RelativePath": "api/BookingsActivity/prepare-activity-booking",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.FavouriteController",
+    "Method": "AddFavorite",
+    "RelativePath": "api/Favourite/add-favorite",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Tourism_project.Dtos.Home.AddFavoriteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.FavouriteController",
+    "Method": "RemoveFromFavorites",
+    "RelativePath": "api/Favourite/remove-favorite",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tourism_project.Dtos.Home.AddFavoriteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.FavouriteController",
+    "Method": "GetUserFavorites",
+    "RelativePath": "api/Favourite/user-favorites/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.HotelsController",
+    "Method": "GetAvailableHotels",
+    "RelativePath": "api/Hotels/available-hotels",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "startDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "guests",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "roomsRequired",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.HotelsController",
+    "Method": "GetHotelsByLocationName",
+    "RelativePath": "api/Hotels/by-location-name/{locationName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "locationName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.HotelsController",
+    "Method": "GetHotelsByLocationId",
+    "RelativePath": "api/Hotels/by-location/{locationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "locationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.HotelsController",
+    "Method": "FilterHotels",
+    "RelativePath": "api/Hotels/filter-hotels",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "startDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "minStars",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "minPrice",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "maxPrice",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "guests",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "roomsRequired",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.HotelsController",
+    "Method": "GetAllHotels",
+    "RelativePath": "api/Hotels/GetAllHotels",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.HotelsController",
+    "Method": "GetHotelById",
+    "RelativePath": "api/Hotels/GetHotelBy/{hotelId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hotelId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.HotelsController",
+    "Method": "GetImagesByHotelId",
+    "RelativePath": "api/Hotels/hotel/{hotelId}/images",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hotelId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.HotelsController",
+    "Method": "GetHotelsByPrice",
+    "RelativePath": "api/Hotels/hotels-by-price",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "minPrice",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "maxPrice",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.HotelsController",
+    "Method": "GetHotelsByStars",
+    "RelativePath": "api/Hotels/hotels-by-stars",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "minStars",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.HotelsController",
+    "Method": "GetHotelsByRating",
+    "RelativePath": "api/Hotels/ratings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "minRating",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.LocationsController",
+    "Method": "AddLocation",
+    "RelativePath": "api/Locations/api/locations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "locationDto",
+        "Type": "Tourism_project.Dtos.Home.LocationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.LocationsController",
+    "Method": "UpdateLocation",
+    "RelativePath": "api/Locations/api/locations/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "locationDto",
+        "Type": "Tourism_project.Dtos.Home.LocationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.LocationsController",
+    "Method": "DeleteLocation",
+    "RelativePath": "api/Locations/api/locations/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.LocationsController",
+    "Method": "GetLocationById",
+    "RelativePath": "api/Locations/GetLocationBy/{locationId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "locationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.LocationsController",
+    "Method": "GetLocationsByTourismType",
+    "RelativePath": "api/Locations/GetLocationsByTourismType/{tourismTypeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tourismTypeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.RoomsController",
+    "Method": "GetRoomDetails",
+    "RelativePath": "api/Rooms/{roomId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roomId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.RoomsController",
+    "Method": "GetAllHotelRooms",
+    "RelativePath": "api/Rooms/all-hotel-rooms",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.RoomsController",
+    "Method": "BookRoom",
+    "RelativePath": "api/Rooms/book",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tourism_project.Dtos.Home.BookingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.RoomsController",
+    "Method": "GetBookingDetailsAfterBooking",
+    "RelativePath": "api/Rooms/booking-details-AfterPayment/{bookingId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookingId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.RoomsController",
+    "Method": "GetBookingDetails",
+    "RelativePath": "api/Rooms/booking-details-beforePayment/{bookingId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookingId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.RoomsController",
+    "Method": "CancelBooking",
+    "RelativePath": "api/Rooms/cancel/{bookingId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookingId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.RoomsController",
+    "Method": "ConfirmPayment",
+    "RelativePath": "api/Rooms/confirm-payment/{transactionId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transactionId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.RoomsController",
+    "Method": "GetHotelRooms",
+    "RelativePath": "api/Rooms/hotel-rooms/{hotelId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hotelId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.RoomsController",
+    "Method": "GetRoomImages",
+    "RelativePath": "api/Rooms/room-images/{roomId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roomId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.SearchController",
+    "Method": "Search",
+    "RelativePath": "api/Search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.SearchController",
+    "Method": "SearchTourismType",
+    "RelativePath": "api/Search/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Tourism_project.Dtos.Home.TourismTypeDto, Tourism_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.ServiciesController",
+    "Method": "GetServicesByHotelId",
+    "RelativePath": "api/Servicies/services/{hotelId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hotelId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.TourismTypeController",
+    "Method": "GetTourismTypeById",
+    "RelativePath": "api/TourismType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.TourismTypeController",
+    "Method": "PostTourismType",
+    "RelativePath": "api/TourismType",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tourismTypeDto",
+        "Type": "Tourism_project.Dtos.Home.TourismTypeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.TourismTypeController",
+    "Method": "PutTourismType",
+    "RelativePath": "api/TourismType/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tourismTypeDto",
+        "Type": "Tourism_project.Dtos.Home.TourismTypeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.TourismTypeController",
+    "Method": "DeleteTourismType",
+    "RelativePath": "api/TourismType/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.TourismTypeController",
+    "Method": "GetTourismTypes",
+    "RelativePath": "api/TourismType/GetTourismTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.TourismTypeController",
+    "Method": "GetTourismTypeImageWithDiscount",
+    "RelativePath": "api/TourismType/image-discount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.Home.TourismTypeController",
+    "Method": "SearchTourismType",
+    "RelativePath": "api/TourismType/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Tourism_project.Dtos.Home.TourismTypeDto, Tourism_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.UpdateProfile.UpdateProfileController",
+    "Method": "GetUserProfile",
+    "RelativePath": "api/UpdateProfile/GetUserProfile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.UpdateProfile.UpdateProfileController",
+    "Method": "UpdateProfilePicture",
+    "RelativePath": "api/UpdateProfile/update-profile-picture",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Poster",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.UpdateProfile.UpdateProfileController",
+    "Method": "UpdatePassword",
+    "RelativePath": "api/UpdateProfile/UpdatePassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Tourism_project.Dtos.UpdateProfile.UpdatePasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.UpdateProfile.UpdateProfileController",
+    "Method": "UpdateUserName",
+    "RelativePath": "api/UpdateProfile/UpdateUserName",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Tourism_project.Dtos.UpdateProfile.UpdateUserNameDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tourism_project.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Tourism_project.WeatherForecast, Tourism_project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

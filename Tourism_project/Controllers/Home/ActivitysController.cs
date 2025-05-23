@@ -48,38 +48,6 @@ namespace Tourism_project.Controllers.Home
 
         #endregion
 
-        //#region EndPoint_AddActivity
-        //[HttpPost("api/activities")]
-        //public async Task<IActionResult> AddActivity([FromBody] ACtivity activityDto)
-        //{
-        //    try
-        //    {
-        //        if (activityDto == null)
-        //        {
-        //            return BadRequest(new { statusCode = 400, message = "Invalid data." });
-        //        }
-
-        //        var activity = new ACtivity
-        //        {
-        //            Name = activityDto.Name,
-        //            Description = activityDto.Description,
-        //            Price = activityDto.Price,
-        //            DurationHours = activityDto.DurationHours
-        //        };
-
-        //        dbContext.Activities.Add(activity);
-        //        await dbContext.SaveChangesAsync();
-
-        //        return CreatedAtAction(nameof(GetActivityById), new { id = activity.ActivityId }, activity);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return StatusCode(500, new { statusCode = 500, message = "An error occurred while adding the activity.", error = ex.Message });
-        //    }
-        //}
-
-        //#endregion
-
         #region EndPoint_GetActivityById
         [HttpGet("api/activities/{id}")]
         public async Task<IActionResult> GetActivityById(int id)
