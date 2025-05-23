@@ -8,6 +8,7 @@ This is the backend API for the Tourism Project, built using ASP.NET Core Web AP
 
 ###  User Management
 - Register / Login / Profile Update
+## 📁 Folder Structure
 - Password Recovery
 - Email Verification
 
@@ -31,5 +32,23 @@ This is the backend API for the Tourism Project, built using ASP.NET Core Web AP
 - Get All Favorites
 
 ---
+
+##  Folder Structure
+Tourism_project/
+├── Controllers/ # API Controllers
+├── Models/ # Entity Models
+├── DTOs/ # Data Transfer Objects
+├── Services/ # Business Logic
+├── Migrations/ # EF Core Migrations
+├── TourismDbContext.cs # DB Context
+├── Program.cs # App Entry Point
+└── appsettings.json # Configuration
+
+##  Getting Started
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/hebagamal23/Tourism-app.git
+   cd Tourism_project
 
 
